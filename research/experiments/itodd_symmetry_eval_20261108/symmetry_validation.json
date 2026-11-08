@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "composition_max_abs": 1.1368683772161603e-13,
+  "same_pose_errors": {
+    "ADD": 0.0,
+    "ADD_S": 0.0,
+    "explicit": 0.0
+  },
+  "symmetry_pose_errors": {
+    "ADD": 74.21439081246676,
+    "ADD_S": 0.7040912121083989,
+    "explicit": 0.0
+  },
+  "threshold_0_1d": 13.937899999999999,
+  "translation_omission_camera_units": 0.14409499999999298,
+  "units": "BOP CAD unit mm; real pose physical scale assumed, not independently measured",
+  "transform_order": "T_m2c_equivalent = T_m2c @ S_m2m, R2=R@Rs, t2=R@ts+t",
+  "explicit_metric": "min over identity and official discrete transforms of mean corresponding-vertex 3D distance",
+  "adds_direction": "each predicted vertex to nearest GT vertex; mean",
+  "warning": "explicit symmetry produces zero by definition even for approximate mesh symmetry; ADD-S can be nonzero due to vertex sampling"
+}

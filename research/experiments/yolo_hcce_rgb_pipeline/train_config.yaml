@@ -1,0 +1,13 @@
+model: weights/yolo11n.pt
+data: dataset.yaml
+epochs: 80
+patience: 15
+imgsz: 640
+batch: 8
+seed: 42
+workers: 2
+device: 0
+optimizer: auto
+pretrained: true
+plots: true
+amp: true

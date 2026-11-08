@@ -1,0 +1,52 @@
+{
+  "frame": 26,
+  "warmup": 5,
+  "repetitions": 30,
+  "pnp_success": 30,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "input_scope": "already-undistorted in-memory image; includes YOLO predict and NMS, bbox select, crop and H2D, model, decode, PnP; excludes disk IO, camera capture, undistortion, overlay",
+  "timings": {
+    "detector_predict_including_nms": {
+      "mean_ms": 3.6198799032717943,
+      "median_ms": 3.5374165163375437,
+      "p95_ms": 4.021658940473571,
+      "n": 30
+    },
+    "bbox_selection": {
+      "mean_ms": 0.09328120698531468,
+      "median_ms": 0.09073852561414242,
+      "p95_ms": 0.1026560552418232,
+      "n": 30
+    },
+    "crop_preprocess_h2d": {
+      "mean_ms": 0.47314642385269207,
+      "median_ms": 0.42430649045854807,
+      "p95_ms": 0.8751011977437883,
+      "n": 30
+    },
+    "hcce_forward": {
+      "mean_ms": 7.316466766254355,
+      "median_ms": 7.180464512202889,
+      "p95_ms": 7.96066066250205,
+      "n": 30
+    },
+    "hcce_decode_copy": {
+      "mean_ms": 1.0049447766505182,
+      "median_ms": 0.9943504701368511,
+      "p95_ms": 1.09799291822128,
+      "n": 30
+    },
+    "pnp": {
+      "mean_ms": 7.783727953210473,
+      "median_ms": 7.672108476981521,
+      "p95_ms": 8.48072964581661,
+      "n": 30
+    },
+    "end_to_end": {
+      "mean_ms": 20.291447030225147,
+      "median_ms": 19.9299564701505,
+      "p95_ms": 21.762635419145223,
+      "n": 30
+    }
+  }
+}

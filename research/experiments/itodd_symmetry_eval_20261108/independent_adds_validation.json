@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "numpy_adds": 0.7040912121083989,
+  "opencv_bfmatcher_adds_float32": 0.7040941189635413,
+  "absolute_difference": 2.906855142481568e-06,
+  "points": 1439
+}

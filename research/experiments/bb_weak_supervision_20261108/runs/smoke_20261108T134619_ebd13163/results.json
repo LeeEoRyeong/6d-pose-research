@@ -1,0 +1,161 @@
+{
+  "status": "PASS_SMOKE_REAL_SUPERVISION_NO_GO",
+  "gpu_used": false,
+  "original_input_sha256_before": {
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/BB_obj04/scene_gt_obj04.json": "9a8881f1ea7309ec1cc2f8c72afa695bbfd193927083d92af19c57cfb044e587",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/BB_obj04/scene_camera_obj04.json": "5ac60f10d5c678f29c013fbe63850f6a8a5bdb8e7fa893ee8cef1742e5222d5f",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/data/models/obj_000004.ply": "0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/runs/baseline_seed42_20261103_214353/trained_only/checkpoints/best_val_loss.pt": "67a3e9f0e6297082ea95335ea81dda847ca1d5ddb972b519d34a368ca1901a83",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/runs/baseline_seed42_20261103_214353/trained_only/checks/split.json": "27909c1e9bd50b1af4ed51ac1137d86d8903910a690d4d7003c1640b58252227",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/runs/baseline_seed42_20261103_214353/trained_only/code/network_model_explicit.py": "d2723896392762a2769b273a3ada55a9a8f07928d096c5e94079da5199177486",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000043.jpg": "2093600e849dcae42ae8d9f0d867f295511cba7d87f8d7dcdde4669c5f0d4fa2",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000075.jpg": "a1ba394b27f8927b2767d81bd2e1639a0207e761ebd440568cf6a8307237617a",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000235.jpg": "43e49f460d957444c75f3eda2dda4b2c1e45423e348c56ed99dcec870bc389ce",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000247.jpg": "a008c81b3ea75270dc58d9215b80d3e87a4a341482b1c5e556b3e7dc44b131ef",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000043.npy": "e58958e8b14a63cdb36dc0eadb110806245dbbb9cd733af027d83e2427b3ef1e",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000075.npy": "9579f5e1222246bc09cce71ac5406adccbe47ee4750f3c25044bab3df6809957",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000235.npy": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+    "/RESEARCH_DATA/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000247.npy": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+    "/RESEARCH_DATA/HCCEPose_experiments/realistic_final100/train_pbr/000000/rgb/000000.jpg": "3e166f5e66015e0b190410a6228d923e9442944cd6d5efbd6f94a70823d4f677",
+    "/RESEARCH_DATA/HCCEPose_experiments/realistic_final100/train_pbr/000000/mask_visib/000000_000000.png": "a751ece78809cf07f8107cf1ddf14513507d6761f96b6b00d3a7eb641fe2b65f",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/labels/front/000000_000000.png": "f9df68aee353116b765d60c0b0f04d43c9c5fb8ea7abd2526ad086a4218b345f",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/labels/back/000000_000000.png": "727bbad22ea935daa52be7f209ed84f0e0f67b20234c14f981b754a27f66b606",
+    "/RESEARCH_DATA/HCCEPose_experiments/realistic_final100/train_pbr/000000/rgb/000010.jpg": "1c6d072c7bd6e782d4e9176b63baa3dddca459374f5a40aa0402d4f9ed4a8eeb",
+    "/RESEARCH_DATA/HCCEPose_experiments/realistic_final100/train_pbr/000000/mask_visib/000010_000000.png": "6b60b0c9127044e88b79f956f891ffa975dc0ba80c79e96e93632e7252cd4edf",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/labels/front/000010_000000.png": "7fa8234738897013f8bec8b3f73f6c99dbd5f3d927d164b63e3f0d5c2d2d4347",
+    "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/labels/back/000010_000000.png": "497b49ed046029750b0ad29e7711f3139efa66b03ab40ffb9bec1c0f961d8a50"
+  },
+  "synthetic": {
+    "pbr_value_gradient_history": "3 calls bitwise equal",
+    "ignored_gradient": "exactly zero",
+    "empty_gates": "finite zero",
+    "real_history": "unchanged"
+  },
+  "hcce_roundtrip": "all 256 byte values x/y/z exact",
+  "bb_samples": [
+    {
+      "frame": 43,
+      "state": "APPROACHING",
+      "group": 43,
+      "reference": null,
+      "bbox_xywh": [
+        381.0,
+        214.0,
+        178.0,
+        153.0
+      ],
+      "cad_pixels": 15688,
+      "valid_u_front_pixels": 0,
+      "valid_u_back_pixels": 0,
+      "valid_fraction_cad": 0.0,
+      "q_pos": 0,
+      "q_neg": 0,
+      "reason": "no validated automatic occlusion/confidence model",
+      "temporal_difference": null,
+      "independent_ray_max_error": 2.6147972675971687e-12
+    },
+    {
+      "frame": 75,
+      "state": "PICKING",
+      "group": 31,
+      "reference": null,
+      "bbox_xywh": [
+        382.0,
+        213.0,
+        176.0,
+        154.0
+      ],
+      "cad_pixels": 15488,
+      "valid_u_front_pixels": 0,
+      "valid_u_back_pixels": 0,
+      "valid_fraction_cad": 0.0,
+      "q_pos": 0,
+      "q_neg": 0,
+      "reason": "no validated automatic occlusion/confidence model",
+      "temporal_difference": null,
+      "independent_ray_max_error": 3.410605131648481e-13
+    },
+    {
+      "frame": 235,
+      "state": "RETURNING",
+      "group": 235,
+      "reference": 247,
+      "bbox_xywh": [
+        546.0,
+        317.0,
+        206.0,
+        151.0
+      ],
+      "cad_pixels": 17801,
+      "valid_u_front_pixels": 0,
+      "valid_u_back_pixels": 0,
+      "valid_fraction_cad": 0.0,
+      "q_pos": 0,
+      "q_neg": 0,
+      "reason": "no validated automatic occlusion/confidence model",
+      "temporal_difference": {
+        "mean_abs_rgb": 33.68604760032208,
+        "fraction_delta_gt_30_diagnostic_only": 0.2725127801808887
+      },
+      "independent_ray_max_error": 1.2505552149377763e-12
+    },
+    {
+      "frame": 247,
+      "state": "RETURNING",
+      "group": 235,
+      "reference": 235,
+      "bbox_xywh": [
+        546.0,
+        317.0,
+        206.0,
+        151.0
+      ],
+      "cad_pixels": 17801,
+      "valid_u_front_pixels": 0,
+      "valid_u_back_pixels": 0,
+      "valid_fraction_cad": 0.0,
+      "q_pos": 0,
+      "q_neg": 0,
+      "reason": "no validated automatic occlusion/confidence model",
+      "temporal_difference": {
+        "mean_abs_rgb": 33.68604760032208,
+        "fraction_delta_gt_30_diagnostic_only": 0.2725127801808887
+      },
+      "independent_ray_max_error": 1.2505552149377763e-12
+    }
+  ],
+  "same_pose_group_count": 36,
+  "group_sampling_smoke": [
+    247,
+    43,
+    75,
+    247,
+    75,
+    43,
+    235,
+    75,
+    43,
+    247,
+    75,
+    43
+  ],
+  "cpu_one_step": {
+    "total": 3.534008264541626,
+    "pbr": 3.534008264541626,
+    "real_xyz": 0.0,
+    "real_mask": 0.0,
+    "counts": {
+      "u_front": 0,
+      "u_back": 0,
+      "mask_valid": 0
+    }
+  },
+  "source_integrity": {
+    "files_checked": 22,
+    "all_sha256_unchanged": true
+  },
+  "bb_trainable_count_with_reliable_gates": 0,
+  "bb_frames_evaluated": 4,
+  "bb100_trainable_count": "not measured",
+  "notes": "temporal difference is diagnostic only, no validated occlusion model, all real gates empty"
+}

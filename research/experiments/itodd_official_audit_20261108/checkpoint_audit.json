@@ -1,0 +1,68 @@
+{
+  "checkpoint_sha256": "224c0869e20be8c9825b77925837e98f0e4c31ae1006361cddd1b46e0cb48ffc",
+  "checkpoint_bytes": 361732242,
+  "keys": [
+    "model_state_dict",
+    "optimizer_state_dict",
+    "best_score",
+    "iteration_step",
+    "keypoints_"
+  ],
+  "iteration_step": 50000,
+  "best_score": 1.0,
+  "score_meaning": "not independently identified",
+  "checkpoint_tensor_count": 1488,
+  "model_tensor_count": 1488,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "shape_mismatch": [],
+  "strict_load": "PASS",
+  "model_backbone": "efficientnet_b4",
+  "input_channels": 3,
+  "source_commit": null,
+  "official_model_sha256": "0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f",
+  "bb_model_sha256": "0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f",
+  "baseline_model_sha256": "0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f",
+  "official_model_info": {
+    "diameter": 139.379,
+    "max_x": 45.25,
+    "max_y": 45.25,
+    "max_z": 32.6576,
+    "min_x": -45.25,
+    "min_y": -45.25,
+    "min_z": -32.6576,
+    "size_x": 90.5,
+    "size_y": 90.5,
+    "size_z": 65.3153,
+    "symmetries_discrete": [
+      [
+        7.3887e-15,
+        -1,
+        -1.04162e-13,
+        -8.00355e-13,
+        -1,
+        -7.3887e-15,
+        -4.31991e-14,
+        -1.52795e-13,
+        4.31991e-14,
+        1.04162e-13,
+        -1,
+        -0.144095,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "baseline_model_info": {
+    "diameter": 139.37869485511956,
+    "min_x": -45.25,
+    "min_y": -45.25,
+    "min_z": -32.65763854980469,
+    "size_x": 90.5,
+    "size_y": 90.5,
+    "size_z": 65.31527709960938
+  },
+  "load_result": "<All keys matched successfully>"
+}

@@ -1,0 +1,9 @@
+{
+  "frames": 100,
+  "candidate_pose_groups": 36,
+  "weak_supervision_eligible": 0,
+  "low_occlusion_selected": 0,
+  "not_measured": 100,
+  "exclusion_reason": "automatic occlusion estimator unavailable; gates must remain zero",
+  "no_rendering_or_training": true
+}

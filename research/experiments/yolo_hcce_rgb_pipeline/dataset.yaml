@@ -1,0 +1,5 @@
+path: /RESEARCH_DATA/HCCEPose_experiments/yolo_hcce_rgb_pipeline/dataset
+train: images/train
+val: images/val
+names:
+  0: obj04

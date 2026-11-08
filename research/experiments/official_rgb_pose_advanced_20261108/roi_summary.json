@@ -1,0 +1,132 @@
+[
+  {
+    "condition": "oracle",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 21,
+    "adds_pass": 26,
+    "sym_rotation_median_deg": 1.3004040553391807,
+    "sym_translation_median": 6.943147661684978,
+    "failures": {}
+  },
+  {
+    "condition": "x-10%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 19,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.4733381554493923,
+    "sym_translation_median": 7.050620352353285,
+    "failures": {}
+  },
+  {
+    "condition": "x-5%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.2225228151512686,
+    "sym_translation_median": 7.344723730206687,
+    "failures": {}
+  },
+  {
+    "condition": "x+5%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 21,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.1980670970136555,
+    "sym_translation_median": 9.164075216017064,
+    "failures": {}
+  },
+  {
+    "condition": "x+10%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.2438460065916315,
+    "sym_translation_median": 7.463522932925756,
+    "failures": {}
+  },
+  {
+    "condition": "y-10%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.4802389170968813,
+    "sym_translation_median": 7.995169907971799,
+    "failures": {}
+  },
+  {
+    "condition": "y-5%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.3987970427253287,
+    "sym_translation_median": 6.551630061184183,
+    "failures": {}
+  },
+  {
+    "condition": "y+5%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.1507294189121622,
+    "sym_translation_median": 7.114482824641516,
+    "failures": {}
+  },
+  {
+    "condition": "y+10%",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.2334682106047477,
+    "sym_translation_median": 7.2644401984154685,
+    "failures": {}
+  },
+  {
+    "condition": "scale0.8",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.2884003927011143,
+    "sym_translation_median": 8.007801271156653,
+    "failures": {}
+  },
+  {
+    "condition": "scale0.9",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 22,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.2551172673838222,
+    "sym_translation_median": 7.018844116433282,
+    "failures": {}
+  },
+  {
+    "condition": "scale1.1",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 21,
+    "adds_pass": 26,
+    "sym_rotation_median_deg": 1.3987255266374323,
+    "sym_translation_median": 6.753785747999702,
+    "failures": {}
+  },
+  {
+    "condition": "scale1.2",
+    "n": 27,
+    "pnp_valid": 27,
+    "symmetry_pass": 19,
+    "adds_pass": 25,
+    "sym_rotation_median_deg": 1.4205388159298649,
+    "sym_translation_median": 8.46115988019566,
+    "failures": {}
+  }
+]

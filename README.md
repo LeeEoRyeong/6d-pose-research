@@ -1,4 +1,34 @@
-# HCCEPose 6D Pose 연구 백업
+# HCCEPose RGB-only 6D Pose 연구 백업
+
+ITODD obj04를 대상으로 PBR baseline, 공식 사전학습 HCCEPose와 SMT 환경 RGB-only 추론을 연구한 코드와 결과다. 원본 저장소와 연구 이력은 별도로 보존한다. 아래 수치는 개발 데이터의 조건부 결과이며 독립 테스트 성능이 아니다.
+
+## 현재 연구 결과
+
+| 평가 조건 | PnP | 명시적 대칭 ADD@0.1d |
+|---|---:|---:|
+| 공식 EfficientNet-B4 + 실사 개발27 oracle ROI | 27/27 | 21/27 |
+| YOLO11n + 공식 모델, 실사 개발27 | 26/27 | 17/27 |
+| 기존 1 epoch YOLO + 공식 모델 | 0/27 | 0/27 |
+| 공식 모델 + BB100 oracle ROI | 100/100 | 55/100 |
+
+YOLO는 검출 27/27이고 25/27은 CAD amodal bbox와 IoU≥0.5였다. BB100은 단일 세션이며 distortion 및 pose 품질이 완전히 검증되지 않았다. CAD amodal은 visible GT가 아니다. HCCEPose fine-tuning은 하지 않았다.
+
+## 최근 연구 자료
+
+- [공식 체크포인트 호환성 감사](research/experiments/itodd_official_audit_20261108/결과_보고서.md)
+- [공식 이산 대칭 및 기존 모델 비교](research/experiments/itodd_symmetry_eval_20261108/연구_보고서.md)
+- [ROI 강건성 및 BB100 진단](research/experiments/official_rgb_pose_advanced_20261108/연구_보고서.md)
+- [YOLO + HCCEPose 파이프라인](research/experiments/yolo_hcce_rgb_pipeline/연구_보고서.md)과 [추론 코드](research/experiments/yolo_hcce_rgb_pipeline/run_inference.py)
+- [BB 약지도 검토](research/experiments/bb_weak_supervision_20261108/결과_보고서.md) 및 [SAM 후보 실험](research/experiments/bb_sam_candidates_20261108/결과_보고서.md)
+
+이 저장소는 RGB·PBR 데이터, 원본 GT pose, CAD, 마스크, 모델 및 checkpoint, 이미지 결과물을 포함하지 않는다. CSV에서 예측 pose 행렬과 원본 이미지 식별 해시·촬영 시각은 제외했다. 복사본의 로컬 경로는 `/RESEARCH_DATA` 등 자리표시자로 바뀌었으므로 사용 전 별도 설정이 필요하다. 코드가 원본 HCCEPose 및 외부 모델·데이터에 의존하므로 저장소만으로 즉시 재현할 수 없다.
+
+## 출처와 라이선스
+
+[원본 HCCEPose](https://github.com/WangYuLin-SEU/HCCEPose)의 LGPL 2.1 고지와 원본 commit은 [출처 문서](provenance/UPSTREAM.md)와 [라이선스](LICENSES/HCCEPose-LGPL-2.1.txt)에 남겼다. `research/`의 일부 파일은 upstream 파생물·스냅샷이고 일부는 연구용 코드다. 제3자 의존성은 [별도 라이선스 안내](provenance/THIRD_PARTY.md)를 확인한다. 원본 Git 이력은 이 연구 전용 저장소에 포함되지 않으며 upstream과 로컬 원본에 보존된다.
+
+## 이전 백업 안내
+
 
 실사 BB 객체 4의 Front/Back XYZ 및 visible mask, PBR 학습 및 평가를 검토한 연구 코드와 보고서다. 원본 프로젝트와 개인 데이터는 별도 보관한다. 이 저장소에는 실사·PBR 이미지, 원본 pose, CAD 모델, 마스크, 체크포인트 및 가상환경을 포함하지 않는다.
 

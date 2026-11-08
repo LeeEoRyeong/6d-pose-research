@@ -1,0 +1,18 @@
+{
+  "status": "NO_GO_NO_VALIDATED_OCCLUSION_ESTIMATOR",
+  "seed": 42,
+  "smoke_device": "cpu",
+  "bb_smoke_ids": [43, 75, 235, 247],
+  "pbr_smoke_ids": [0, 10],
+  "pbr_per_batch": 3,
+  "real_per_batch": 1,
+  "lambda_real_xyz": 0.25,
+  "lambda_real_mask": 0.25,
+  "weight_status": "initial hypothesis, not calibrated",
+  "max_same_pose_frame_gap": 20,
+  "temporal_difference_status": "diagnostic only, not confidence or occlusion ground truth",
+  "automatic_occlusion_model": null,
+  "default_uncertainty_policy": "all real supervision gates zero",
+  "pbr_validation_split": "../obj04_seminar_v1/runs/baseline_seed42_20261103_214353/trained_only/checks/split.json",
+  "training_loop": "not implemented; mixed step is CPU only"
+}

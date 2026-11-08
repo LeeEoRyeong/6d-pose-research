@@ -1,0 +1,15 @@
+{
+  "frames": 27,
+  "detected": 0,
+  "pnp_valid": 0,
+  "adds_pass_all_frames": 0,
+  "symmetry_pass_all_frames": 0,
+  "confidence_threshold": 0.25,
+  "bbox_definition": "highest scoring class 0 detector bbox, pad1.5; CAD only for offline comparison",
+  "checkpoint": "/RESEARCH_DATA/HCCEPose_experiments/realistic_final100/yolo11/train_obj_s/smoke_train/weights/best.pt",
+  "checkpoint_sha256": "92d31f7a4bd418a06479ea68b3080ba145f025d684fa5970956dac76051e5aa2",
+  "detector_training": "one epoch, fraction 0.1, from scratch; PBR smoke only",
+  "iou_note": "bbox IoU against CAD amodal projection, not visible GT",
+  "detector_input": "RAW undistorted RGB only; no GT",
+  "independent_test": "no, development27"
+}

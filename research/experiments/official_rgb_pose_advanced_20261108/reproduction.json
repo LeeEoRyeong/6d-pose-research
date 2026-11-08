@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "official_symmetry_pass": 21,
+  "baseline_symmetry_pass": 0,
+  "total_per_model": 27,
+  "max_abs_metric_difference": 0.0,
+  "threshold": 0.001,
+  "comparison": "per frame ADD, ADD-S, explicit symmetry ADD and PnP validity; prior fixed seed",
+  "official_peak": {
+    "allocated": 414875136,
+    "reserved": 524288000
+  },
+  "baseline_peak": {
+    "allocated": 389910528,
+    "reserved": 434110464
+  }
+}

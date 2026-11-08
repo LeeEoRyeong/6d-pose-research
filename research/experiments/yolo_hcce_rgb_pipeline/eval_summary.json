@@ -1,0 +1,14 @@
+{
+  "total": 27,
+  "detected": 27,
+  "tp_iou_0_5_vs_cad_amodal": 25,
+  "precision_at_iou_0_5": 0.9259259259259259,
+  "recall_at_iou_0_5": 0.9259259259259259,
+  "mean_iou_detected": 0.742184551177646,
+  "pnp_valid": 26,
+  "ADD_pass": 0,
+  "ADD_S_pass": 23,
+  "symmetry_ADD_pass": 17,
+  "threshold": 0.25,
+  "note": "full set denominator, one highest scoring box/frame; precision and recall vs CAD amodal, not visible GT"
+}

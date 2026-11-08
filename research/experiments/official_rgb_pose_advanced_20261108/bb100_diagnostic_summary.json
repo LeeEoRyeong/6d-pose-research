@@ -1,0 +1,18 @@
+{
+  "status": "CONDITIONAL_DEVELOPMENT_DIAGNOSTIC_NOT_INDEPENDENT",
+  "frames": 100,
+  "PnP_valid": 100,
+  "ADD_pass": 0,
+  "ADD_S_pass": 78,
+  "symmetry_ADD_pass": 55,
+  "group_source": "two overlapping components in one recorded session",
+  "ROI": "GT CAD projection oracle pad1.5",
+  "K": "new remap uses dev27 K,D, BB K equal; BB D provenance unverified",
+  "pose_quality": "not independently validated",
+  "peak": {
+    "allocated": 415251968,
+    "reserved": 520093696
+  },
+  "input_hashes_unchanged": true,
+  "source_file_count": 103
+}

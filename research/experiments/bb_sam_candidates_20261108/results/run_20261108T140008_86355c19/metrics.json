@@ -1,0 +1,154 @@
+{
+  "status": "CANDIDATES_ONLY_NOT_GT",
+  "model": "official SAM 2.1 hiera tiny",
+  "config": "configs/sam2.1/sam2.1_hiera_t.yaml",
+  "checkpoint_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "source_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "torch": "2.8.0+cu128",
+  "device": "NVIDIA GeForce RTX 5090",
+  "dtype": "bfloat16 autocast",
+  "peak_gpu_allocated_bytes": 583890944,
+  "peak_gpu_reserved_bytes": 679477248,
+  "wall_seconds": 1.309716215939261,
+  "inputs_unchanged": true,
+  "prompt_limitations": "bbox from CAD and positive point from dark CAD interior; no guarantee point is object or visible",
+  "scores_limitation": "SAM predicted quality is not measured accuracy; CAD IoU is not GT",
+  "frames": [
+    {
+      "frame": 43,
+      "rgb_state": "APPROACHING",
+      "bbox_xyxy": [
+        381,
+        214,
+        558,
+        366
+      ],
+      "positive_point_xy": [
+        496,
+        305
+      ],
+      "point_heuristic": {
+        "criterion": "largest CAD-boundary distance among gray<=90 pixels",
+        "gray_at_point": 45,
+        "cad_boundary_distance_px": 35.181396484375,
+        "dark_pixel_threshold": 90,
+        "min_cad_boundary_distance_px": 10
+      },
+      "sam_predicted_quality_scores": [
+        0.9609375,
+        0.9453125,
+        0.97265625
+      ],
+      "selected_index_highest_predicted_quality": 2,
+      "cad_amodal_pixels": 15688,
+      "sam_candidate_pixels": 17870,
+      "intersection_pixels": 15683,
+      "cad_only_pixels": 5,
+      "sam_only_pixels": 2187,
+      "intersection_over_union_with_CAD_NOT_GT": 0.8773706293706294,
+      "inference_seconds": 0.3665939290076494
+    },
+    {
+      "frame": 75,
+      "rgb_state": "PICKING",
+      "bbox_xyxy": [
+        382,
+        213,
+        557,
+        366
+      ],
+      "positive_point_xy": [
+        495,
+        306
+      ],
+      "point_heuristic": {
+        "criterion": "largest CAD-boundary distance among gray<=90 pixels",
+        "gray_at_point": 45,
+        "cad_boundary_distance_px": 35.17209243774414,
+        "dark_pixel_threshold": 90,
+        "min_cad_boundary_distance_px": 10
+      },
+      "sam_predicted_quality_scores": [
+        0.703125,
+        0.91796875,
+        0.94921875
+      ],
+      "selected_index_highest_predicted_quality": 2,
+      "cad_amodal_pixels": 15488,
+      "sam_candidate_pixels": 12826,
+      "intersection_pixels": 10959,
+      "cad_only_pixels": 4529,
+      "sam_only_pixels": 1867,
+      "intersection_over_union_with_CAD_NOT_GT": 0.6314606741573033,
+      "inference_seconds": 0.07047265989240259
+    },
+    {
+      "frame": 235,
+      "rgb_state": "RETURNING",
+      "bbox_xyxy": [
+        546,
+        317,
+        751,
+        467
+      ],
+      "positive_point_xy": [
+        673,
+        404
+      ],
+      "point_heuristic": {
+        "criterion": "largest CAD-boundary distance among gray<=90 pixels",
+        "gray_at_point": 43,
+        "cad_boundary_distance_px": 39.393798828125,
+        "dark_pixel_threshold": 90,
+        "min_cad_boundary_distance_px": 10
+      },
+      "sam_predicted_quality_scores": [
+        0.76953125,
+        0.9140625,
+        0.94140625
+      ],
+      "selected_index_highest_predicted_quality": 2,
+      "cad_amodal_pixels": 17801,
+      "sam_candidate_pixels": 14110,
+      "intersection_pixels": 12641,
+      "cad_only_pixels": 5160,
+      "sam_only_pixels": 1469,
+      "intersection_over_union_with_CAD_NOT_GT": 0.6559937727036845,
+      "inference_seconds": 0.0683550740359351
+    },
+    {
+      "frame": 247,
+      "rgb_state": "RETURNING",
+      "bbox_xyxy": [
+        546,
+        317,
+        751,
+        467
+      ],
+      "positive_point_xy": [
+        673,
+        404
+      ],
+      "point_heuristic": {
+        "criterion": "largest CAD-boundary distance among gray<=90 pixels",
+        "gray_at_point": 49,
+        "cad_boundary_distance_px": 39.393798828125,
+        "dark_pixel_threshold": 90,
+        "min_cad_boundary_distance_px": 10
+      },
+      "sam_predicted_quality_scores": [
+        0.9609375,
+        0.93359375,
+        0.96875
+      ],
+      "selected_index_highest_predicted_quality": 2,
+      "cad_amodal_pixels": 17801,
+      "sam_candidate_pixels": 18580,
+      "intersection_pixels": 17098,
+      "cad_only_pixels": 703,
+      "sam_only_pixels": 1482,
+      "intersection_over_union_with_CAD_NOT_GT": 0.8866877560545559,
+      "inference_seconds": 0.07016190199647099
+    }
+  ]
+}

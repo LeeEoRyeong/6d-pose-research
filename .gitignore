@@ -44,3 +44,31 @@
 **/*.key
 
 # This is defense in depth: use an explicit reviewed file manifest as well.
+
+# Extra defense in depth for research datasets, artifacts and credentials.
+**/dataset/
+**/images/
+**/image/
+**/overlays/
+**/.ultralytics/
+**/.mpl/
+**/.pytest_cache/
+**/wandb/
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.onnx
+**/*.npy
+**/*.npz
+**/*.ply
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.mp4
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.p12
+**/*.pfx
+**/id_rsa*
+**/id_ed25519*
