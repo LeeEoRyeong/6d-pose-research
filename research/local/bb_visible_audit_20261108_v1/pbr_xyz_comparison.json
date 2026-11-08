@@ -1,0 +1,97 @@
+[
+  {
+    "frame": 0,
+    "full_mask_iou": 0.9888241244761309,
+    "ray_max_error_model_units": 4.547473508864641e-12,
+    "labels": [
+      {
+        "label": "front",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      },
+      {
+        "label": "back",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      }
+    ]
+  },
+  {
+    "frame": 10,
+    "full_mask_iou": 0.9868451633895784,
+    "ray_max_error_model_units": 2.8421709430404007e-13,
+    "labels": [
+      {
+        "label": "front",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      },
+      {
+        "label": "back",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      }
+    ]
+  },
+  {
+    "frame": 40,
+    "full_mask_iou": 0.9907614781634938,
+    "ray_max_error_model_units": 7.958078640513122e-13,
+    "labels": [
+      {
+        "label": "front",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      },
+      {
+        "label": "back",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      }
+    ]
+  },
+  {
+    "frame": 70,
+    "full_mask_iou": 0.9884643114635905,
+    "ray_max_error_model_units": 1.0800249583553523e-12,
+    "labels": [
+      {
+        "label": "front",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      },
+      {
+        "label": "back",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      }
+    ]
+  },
+  {
+    "frame": 99,
+    "full_mask_iou": 0.9895956873315364,
+    "ray_max_error_model_units": 2.1827872842550278e-11,
+    "labels": [
+      {
+        "label": "front",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      },
+      {
+        "label": "back",
+        "exact": true,
+        "different_channel_values": 0,
+        "max_difference": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+# Proposal for a new research-only repository. Not applied to the original repo.
+# Allowlist: start by ignoring all files, then explicitly allow reviewed types.
+*
+!*/
+!*.py
+!*.sh
+!*.md
+!*.txt
+!*.toml
+!*.yaml
+!*.yml
+!*.json
+!*.csv
+!.gitignore
+!LICENSE
+
+# Exclusions always take priority over the extension allowlist.
+**/.git/
+**/.env
+**/.env.*
+**/env/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/cache/
+**/data/
+**/datasets/
+**/rgb*/
+**/depth/
+**/mask*/
+**/labels/
+**/poses*/
+**/checkpoints/
+**/weights/
+**/runs/*/checkpoints/
+**/watcher_backups/
+**/scene_gt*.json
+**/scene_camera*.json
+**/*credential*
+**/*secret*
+**/*token*
+**/*password*
+**/*.pem
+**/*.key
+
+# This is defense in depth: use an explicit reviewed file manifest as well.

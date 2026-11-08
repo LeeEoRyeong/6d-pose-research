@@ -1,0 +1,23 @@
+{
+  "object_id": 4,
+  "seed": 42,
+  "batch_size": 4,
+  "crop": 256,
+  "optimizer": "Adam",
+  "lr": 0.0002,
+  "amp": "float16 GradScaler",
+  "max_epochs": 195,
+  "early_stop_validation_checks": 8,
+  "early_stop_min_delta": 0.0001,
+  "validation_every_epochs": 5,
+  "checkpoint_every_epochs": 50,
+  "angle_distribution": "uniform[-20,+20] degrees per train sample",
+  "angle_rng": "independent NumPy default_rng(42); baseline torch randperm RNG preserved",
+  "M_256_128": "same normalized 2D affine; RGB linear, mask/XYZ/support nearest; HCCE encode after rotation",
+  "loss": "baseline explicit float-cast-compatible HccePose_Loss, same weights, unchanged",
+  "validity": "transformed, monitored; not separately inserted into baseline loss",
+  "selection": "epoch>=1, Val Loss improvement min_delta .0001, patience8 checks, as baseline",
+  "evaluation": "same unaugmented Train/Val and same BBox, batch4, same PnP as baseline",
+  "real_training_samples": 0,
+  "experiment_runs_authorized": 1
+}

@@ -1,0 +1,2 @@
+stage,n,valid,ADD_pass,ADD_rate,inliers_mean,inlier_ratio_mean,source_inlier_count_mismatches,add_mean,add_median,rotation_deg_mean,rotation_deg_median,translation_mean,translation_median,reprojection_mean_px_mean,reprojection_mean_px_median
+A2_cropK_equal_threshold_Oracle,20,20,20,1.0,3231.75,0.9945722399211755,0,0.29010489810438045,0.1524862290961963,0.06392318202478006,0.05783024285726168,0.2935133227557242,0.15806695413763455,0.45577591447410226,0.43057367414987174

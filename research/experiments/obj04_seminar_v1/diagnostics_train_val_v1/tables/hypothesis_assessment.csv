@@ -1,0 +1,5 @@
+hypothesis,assessment,evidence,limitation
+A Train/Val 모두 큰 XYZ 학습 실패,"주 설명으로는 지지 약함, 세밀한 plane 학습 잔차는 확인","Train Front L2=4.2057, Z MAE=1.3698; Val은 6.99/11.94배",Train Front ADD도59/80으로 완전 적합은 아니며 fine plane 오류 남음
+B 과적합·블록 일반화 실패,현재 네 가설 중 가장 강한 지지,"Train Front ADD59/80 대 Val1/20, 두 Val 블록 모두 모든 Train블록보다 Front XYZ오차 큼",단일 seed/checkpoint·Val2블록. 원인이 초기화/증강/표본량 중 무엇인지는 미확정
+C Mask·XYZ 학습 불균형,"현상은 지지, 최적화 불균형 원인은 미확정",Mask IoU 0.9740/0.9358지만 XYZ gap 6.99배,loss branch gradient/scale 실험 없음. Train coarse 좌표는 학습됨
+D Z coarse plane 민감도,Val에서 강하게 지지; Train coarse는 상대적으로 양호,Front Z0 hard error 2.75%/44.57%; GT plane0치환 Val Z MAE 약3.22,Oracle 치환 진단이며 실제 모델 개선 아님; fine plane도 미학습 잔차

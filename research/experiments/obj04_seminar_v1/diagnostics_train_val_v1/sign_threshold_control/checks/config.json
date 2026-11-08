@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-03T13:39:13.074689+00:00",
+  "limit_minutes": 45,
+  "calculation_stop_minutes": 35,
+  "checkpoint": "/RESEARCH_DATA/HCCEPose_experiments/obj04_seminar_v1/runs/baseline_seed42_20261103_214353/trained_only/checkpoints/best_val_loss.pt",
+  "checkpoint_sha256": "67a3e9f0e6297082ea95335ea81dda847ca1d5ddb972b519d34a368ca1901a83",
+  "epoch": 155,
+  "batch_size": 4,
+  "AMP": "CUDA float16",
+  "crop": "GT visible BBox pad1.5, RGB256 / code128",
+  "scope": "GTmask & nonzero Front and Back label validity, same as diagnostics_v1 supplement",
+  "network_mode": "eval + inference_mode, no optimizer/no training",
+  "plane_counterfactual": "GT hard plane substitution, reference FP32 decoder, diagnostic Oracle only",
+  "collapse_flag": "aggregate pred positive <=0.01 or >=0.99; GT positive also shown",
+  "plane_confidence": "sigmoid(abs(raw)) heuristic, regression code outputs not calibrated probabilities"
+}
