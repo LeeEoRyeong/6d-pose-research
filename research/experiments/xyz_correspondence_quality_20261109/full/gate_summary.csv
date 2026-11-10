@@ -1,0 +1,8 @@
+gate,rule,total_inputs,original_pnp_returned,accepted,rejected_among_returned,acceptance_all,acceptance_among_returned,interpretation
+none,PnP success only,104,83,83,0,0.7980769230769231,1.0,diagnostic thresholds only; no GT accuracy labels
+points32,points ≥32,104,83,83,0,0.7980769230769231,1.0,diagnostic thresholds only; no GT accuracy labels
+inliers20,final inliers ≥20,104,83,76,7,0.7307692307692307,0.9156626506024096,diagnostic thresholds only; no GT accuracy labels
+ratio10pct,final inlier ratio ≥0.10,104,83,72,11,0.6923076923076923,0.8674698795180723,diagnostic thresholds only; no GT accuracy labels
+median3px,all-point median reproj ≤3px,104,83,66,17,0.6346153846153846,0.7951807228915663,diagnostic thresholds only; no GT accuracy labels
+spatial_rank,2D rank≥2 and 3D rank≥2,104,83,83,0,0.7980769230769231,1.0,diagnostic thresholds only; no GT accuracy labels
+combined,all previous gates,104,83,66,17,0.6346153846153846,0.7951807228915663,diagnostic thresholds only; no GT accuracy labels

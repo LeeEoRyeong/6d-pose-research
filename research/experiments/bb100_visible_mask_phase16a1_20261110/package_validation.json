@@ -1,0 +1,12 @@
+{
+  "selected": 10,
+  "none": 4,
+  "partial": 6,
+  "pose_groups": 9,
+  "mask_shape_binary_and_uncertainty": "PASS",
+  "intersection_and_uncertainty_semantics": "PASS",
+  "zip_all_links_and_crc": "PASS",
+  "supervision_pixels": 0,
+  "all_review_status": "UNREVIEWED",
+  "browser_windows_chrome": "NOT_TESTED"
+}

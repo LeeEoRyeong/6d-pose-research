@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "calls": 72,
+  "insufficient_input_cases_preserved": true,
+  "fixed_seed_repeat": "identical successes and poses",
+  "cached_original_solver_equivalence": "cache_check.json"
+}

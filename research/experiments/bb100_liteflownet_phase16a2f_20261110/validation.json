@@ -1,0 +1,7 @@
+{
+  "pairs": 6,
+  "flow_shape_and_finite": "PASS",
+  "difference_masks_and_background_gate": "PASS",
+  "zip_crc_and_image_mask_links": "PASS",
+  "actual_windows_chrome": "NOT_TESTED"
+}

@@ -1,0 +1,11 @@
+﻿frame,occlusion,cad_enclosed_holes_ge_8px,cad_holes_over_half_sam_foreground,note
+43,NONE,10,10,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+247,NONE,11,11,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+383,NONE,11,11,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+420,NONE,11,11,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+75,PARTIAL,10,5,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+235,PARTIAL,11,7,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+99,PARTIAL,11,8,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+221,PARTIAL,11,8,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+340,PARTIAL,11,8,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy
+359,PARTIAL,11,8,CAD geometry comparison only; holes may be occluded or misprojected; no ground-truth accuracy

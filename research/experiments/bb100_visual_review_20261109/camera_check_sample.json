@@ -1,0 +1,34 @@
+{
+  "user_statement": "BB100 and C_rgb_obj04 captured by same Tapo camera; independent capture setting verification not established",
+  "K_D_match_dev_json": true,
+  "camera_output_size": [
+    1280,
+    720
+  ],
+  "newK_equals_K_user_stated": true,
+  "direct_check": [
+    {
+      "frame": 43,
+      "direct_vs_remap_mae": 0.00010706018518518519,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 60,
+      "direct_vs_remap_mae": 8.499710648148148e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 235,
+      "direct_vs_remap_mae": 0.00014576099537037037,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "scope": "numerical compatibility, not execution provenance"
+    }
+  ],
+  "prior_full_100_remap_q95_mae": "../bb100_calibration_provenance_20261109/summary.json",
+  "limitation": "no independent calibration/GT certification"
+}

@@ -1,0 +1,11 @@
+item,status,scope
+RAW 이미지 출처,VERIFIED,지정 run의 JPEG 100개가 해당 frame mapping 및 상태 경로에 존재; 카메라 원본 센서 RAW/ISP 여부는 미검증
+RAW–라벨 프레임 대응,LIKELY,100개 파일명·상태 경로 일치와 보정+JPEG 재현 영상 높은 유사도; 라벨 측 독립 촬영/변환 로그 부재
+BB camera calibration ID,UNKNOWN,카메라 ID/BB calibration 측정 문서 및 라벨 EXIF camera model을 찾지 못함
+BOP JSON K 값,VERIFIED,100개 scene_camera K가 빌더 하드코딩 및 개발27 K와 수치 일치; 물리 카메라 실측 K의 인증은 아님
+BB 실측 K,UNKNOWN,해당 장치와 측정 이력 독립 근거 미확인
+BB 실제 D,UNKNOWN,개발27 D 가정 시 픽셀 호환성 높으나 실제 파라미터·측정 출처 확인 불가
+기존 라벨 newK,UNKNOWN,개발27 newK=K 재현은 강한 호환성; 실제 생성기 옵션/실행 로그 없음
+보정 횟수,LIKELY,"개발27 K,D 가정 1회+JPEG95 출력과 거의 일치; 실제 코드·중간 파일 이력 및 모든 변형 가설은 미확인"
+GT Pose 실제 정합성,UNKNOWN,CAD overlay는 생성된 pose 기반; 독립적인 pose 정답 및 camera 검증 부재
+학습 진행 가능 여부,UNKNOWN,"품질 요건 미입증으로 현재 HOLD/NO-GO, 100장 PASS 아님"

@@ -1,0 +1,36 @@
+{
+  "review_file": "/home/oylee/projects/HCCEPose_experiments/bb100_review_export (2).csv",
+  "review_sha256": "26aa03999e732d69a887ec0d3380212355d32f1fe1179e5859847f87e515a264",
+  "count": 100,
+  "review_status": {
+    "ACCEPT": 100
+  },
+  "source_training_status": {
+    "HOLD": 100
+  },
+  "occlusion": {
+    "NONE": 39,
+    "PARTIAL": 61
+  },
+  "connected_groups": {
+    "31": 36,
+    "221": 64
+  },
+  "pose_groups": 36,
+  "exact_rgb_duplicate_groups": [
+    [
+      32,
+      34
+    ]
+  ],
+  "exact_rgb_duplicates_cross_connected_groups": [],
+  "max_rotation_orthogonality_error": 1.3322676295501878e-15,
+  "max_rotation_det_error": 1.4432899320127035e-15,
+  "max_pose_json_difference": 0.0,
+  "bb_k_matches_user_100": true,
+  "image_size": "1280x720",
+  "pbr_training_count": 80,
+  "pbr_val_count": 20,
+  "final_split": "UNASSIGNED",
+  "training_readiness": "BLOCKED"
+}

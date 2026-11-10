@@ -1,0 +1,101 @@
+frame,priority,priority_reason,pose_group,conservative_connected_group,capture_time,state,documented_pose_copy,review_status,occlusion,reflection,boundary,blur,reviewer,reviewed_at,notes,training_status,comparison_image
+31,P1,same pose across acquisition states; prior model diagnostic disagrees with candidate GT; not proof GT incorrect,31,31,2026-08-13T16:44:28.124,FEEDING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000031.jpg
+32,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,32,31,2026-08-13T16:44:28.192,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000032.jpg
+34,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,32,31,2026-08-13T16:44:28.455,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000034.jpg
+36,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,32,31,2026-08-13T16:44:28.588,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000036.jpg
+38,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,32,31,2026-08-13T16:44:28.797,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000038.jpg
+40,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,32,31,2026-08-13T16:44:28.999,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000040.jpg
+42,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,32,31,2026-08-13T16:44:29.258,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000042.jpg
+43,P1,recorded 43->60 pose copy; prior model diagnostic disagrees with candidate GT; not proof GT incorrect,43,31,2026-08-13T16:44:29.323,APPROACHING,043_to_060,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000043.jpg
+44,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:29.392,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000044.jpg
+45,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:29.524,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000045.jpg
+46,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:29.599,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000046.jpg
+54,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:30.461,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000054.jpg
+57,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:30.721,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000057.jpg
+60,P1,recorded 43->60 pose copy; prior model diagnostic disagrees with candidate GT; not proof GT incorrect,43,31,2026-08-13T16:44:31.010,APPROACHING,043_to_060,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000060.jpg
+63,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:31.324,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000063.jpg
+67,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:31.721,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000067.jpg
+71,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:32.131,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000071.jpg
+74,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,44,31,2026-08-13T16:44:32.455,APPROACHING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000074.jpg
+75,P1,same pose across acquisition states; prior model diagnostic disagrees with candidate GT; not proof GT incorrect,31,31,2026-08-13T16:44:32.532,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000075.jpg
+77,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,77,31,2026-08-13T16:44:32.729,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000077.jpg
+79,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,77,31,2026-08-13T16:44:32.918,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000079.jpg
+81,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,77,31,2026-08-13T16:44:33.124,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000081.jpg
+83,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,77,31,2026-08-13T16:44:33.322,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000083.jpg
+85,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,77,31,2026-08-13T16:44:33.536,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000085.jpg
+87,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,87,31,2026-08-13T16:44:33.727,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000087.jpg
+89,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,89,31,2026-08-13T16:44:33.931,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000089.jpg
+90,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,90,31,2026-08-13T16:44:34.053,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000090.jpg
+93,P2,repeated pose or robot operating state; occlusion not established,93,31,2026-08-13T16:44:34.329,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000093.jpg
+95,P2,repeated pose or robot operating state; occlusion not established,95,31,2026-08-13T16:44:34.535,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000095.jpg
+97,P2,repeated pose or robot operating state; occlusion not established,97,31,2026-08-13T16:44:34.721,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000097.jpg
+99,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,99,31,2026-08-13T16:44:34.930,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000099.jpg
+101,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,101,31,2026-08-13T16:44:35.118,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000101.jpg
+103,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,103,31,2026-08-13T16:44:35.326,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000103.jpg
+105,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,105,31,2026-08-13T16:44:35.523,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000105.jpg
+107,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,107,31,2026-08-13T16:44:35.730,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000107.jpg
+109,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,109,31,2026-08-13T16:44:35.917,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000109.jpg
+221,P2,repeated pose or robot operating state; occlusion not established,221,221,2026-08-13T16:44:47.199,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000221.jpg
+222,P2,repeated pose or robot operating state; occlusion not established,222,221,2026-08-13T16:44:47.325,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000222.jpg
+224,P2,repeated pose or robot operating state; occlusion not established,224,221,2026-08-13T16:44:47.520,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000224.jpg
+226,P2,repeated pose or robot operating state; occlusion not established,224,221,2026-08-13T16:44:47.725,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000226.jpg
+228,P2,repeated pose or robot operating state; occlusion not established,224,221,2026-08-13T16:44:47.923,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000228.jpg
+230,P2,repeated pose or robot operating state; occlusion not established,224,221,2026-08-13T16:44:48.124,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000230.jpg
+232,P2,repeated pose or robot operating state; occlusion not established,224,221,2026-08-13T16:44:48.322,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000232.jpg
+234,P2,repeated pose or robot operating state; occlusion not established,224,221,2026-08-13T16:44:48.524,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000234.jpg
+235,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:48.657,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000235.jpg
+237,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:48.860,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000237.jpg
+239,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:49.056,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000239.jpg
+241,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:49.198,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000241.jpg
+243,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:49.386,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000243.jpg
+245,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:49.603,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000245.jpg
+247,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:49.804,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000247.jpg
+249,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:50.008,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000249.jpg
+251,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:50.187,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000251.jpg
+253,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:50.402,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000253.jpg
+255,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:50.659,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000255.jpg
+257,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:50.859,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000257.jpg
+259,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:50.987,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000259.jpg
+261,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:51.195,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000261.jpg
+263,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:51.457,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000263.jpg
+272,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:52.319,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000272.jpg
+278,P2,repeated pose or robot operating state; occlusion not established,235,221,2026-08-13T16:44:52.924,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000278.jpg
+328,P2,repeated pose or robot operating state; occlusion not established,328,221,2026-08-13T16:44:57.926,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000328.jpg
+330,P2,repeated pose or robot operating state; occlusion not established,328,221,2026-08-13T16:44:58.132,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000330.jpg
+332,P2,repeated pose or robot operating state; occlusion not established,328,221,2026-08-13T16:44:58.319,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000332.jpg
+334,P2,repeated pose or robot operating state; occlusion not established,328,221,2026-08-13T16:44:58.532,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000334.jpg
+336,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,328,221,2026-08-13T16:44:58.727,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000336.jpg
+338,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,328,221,2026-08-13T16:44:58.923,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000338.jpg
+340,P2,repeated pose or robot operating state; occlusion not established,340,221,2026-08-13T16:44:59.120,PICKING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000340.jpg
+341,P2,repeated pose or robot operating state; occlusion not established,341,221,2026-08-13T16:44:59.261,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000341.jpg
+342,P2,repeated pose or robot operating state; occlusion not established,342,221,2026-08-13T16:44:59.326,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000342.jpg
+344,P2,repeated pose or robot operating state; occlusion not established,344,221,2026-08-13T16:44:59.519,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000344.jpg
+346,P2,repeated pose or robot operating state; occlusion not established,346,221,2026-08-13T16:44:59.720,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000346.jpg
+348,P2,repeated pose or robot operating state; occlusion not established,348,221,2026-08-13T16:44:59.921,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000348.jpg
+350,P2,repeated pose or robot operating state; occlusion not established,350,221,2026-08-13T16:45:00.121,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000350.jpg
+352,P2,repeated pose or robot operating state; occlusion not established,352,221,2026-08-13T16:45:00.323,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000352.jpg
+354,P2,repeated pose or robot operating state; occlusion not established,354,221,2026-08-13T16:45:00.529,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000354.jpg
+356,P2,repeated pose or robot operating state; occlusion not established,356,221,2026-08-13T16:45:00.718,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000356.jpg
+358,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,358,221,2026-08-13T16:45:00.924,TRANSPORTING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000358.jpg
+359,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,359,221,2026-08-13T16:45:01.056,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000359.jpg
+361,P2,repeated pose or robot operating state; occlusion not established,359,221,2026-08-13T16:45:01.260,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000361.jpg
+363,P2,repeated pose or robot operating state; occlusion not established,359,221,2026-08-13T16:45:01.469,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000363.jpg
+365,P2,repeated pose or robot operating state; occlusion not established,359,221,2026-08-13T16:45:01.600,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000365.jpg
+367,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,359,221,2026-08-13T16:45:01.862,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000367.jpg
+369,P2,repeated pose or robot operating state; occlusion not established,359,221,2026-08-13T16:45:02.058,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000369.jpg
+371,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,359,221,2026-08-13T16:45:02.258,PLACING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000371.jpg
+373,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:02.397,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000373.jpg
+376,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:02.721,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000376.jpg
+379,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:03.055,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000379.jpg
+383,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:03.459,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000383.jpg
+388,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,373,221,2026-08-13T16:45:03.923,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000388.jpg
+393,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:04.457,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000393.jpg
+398,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:04.923,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000398.jpg
+402,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:05.331,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000402.jpg
+410,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:06.118,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000410.jpg
+419,P2,repeated pose or robot operating state; occlusion not established,373,221,2026-08-13T16:45:06.985,RETURNING,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000419.jpg
+420,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,420,221,2026-08-13T16:45:07.128,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000420.jpg
+422,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,420,221,2026-08-13T16:45:07.329,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000422.jpg
+424,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,420,221,2026-08-13T16:45:07.531,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000424.jpg
+427,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,420,221,2026-08-13T16:45:07.784,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000427.jpg
+428,P1,prior model diagnostic disagrees with candidate GT; not proof GT incorrect,420,221,2026-08-13T16:45:07.916,READY,,UNREVIEWED,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,,,,HOLD,comparisons/000428.jpg

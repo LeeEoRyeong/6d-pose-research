@@ -1,0 +1,813 @@
+{
+  "user_statement": "BB100 and C_rgb_obj04 captured by same Tapo camera; independent capture setting verification not established",
+  "K_D_match_dev_json": true,
+  "camera_output_size": [
+    1280,
+    720
+  ],
+  "newK_equals_K_user_stated": true,
+  "direct_check": [
+    {
+      "frame": 31,
+      "direct_vs_remap_mae": 9.874131944444444e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 32,
+      "direct_vs_remap_mae": 8.933738425925926e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 34,
+      "direct_vs_remap_mae": 8.933738425925926e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 36,
+      "direct_vs_remap_mae": 9.837962962962963e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 38,
+      "direct_vs_remap_mae": 8.391203703703703e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 40,
+      "direct_vs_remap_mae": 9.946469907407407e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 42,
+      "direct_vs_remap_mae": 0.00010452835648148149,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 43,
+      "direct_vs_remap_mae": 0.00010706018518518519,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 44,
+      "direct_vs_remap_mae": 9.765625e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 45,
+      "direct_vs_remap_mae": 9.259259259259259e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 46,
+      "direct_vs_remap_mae": 9.331597222222223e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 54,
+      "direct_vs_remap_mae": 0.00010669849537037038,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 57,
+      "direct_vs_remap_mae": 8.969907407407407e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 60,
+      "direct_vs_remap_mae": 8.499710648148148e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 63,
+      "direct_vs_remap_mae": 9.837962962962963e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 67,
+      "direct_vs_remap_mae": 0.00010163483796296296,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 71,
+      "direct_vs_remap_mae": 0.00010344328703703703,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 74,
+      "direct_vs_remap_mae": 0.00011682581018518518,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 75,
+      "direct_vs_remap_mae": 0.00011103877314814815,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 77,
+      "direct_vs_remap_mae": 0.00010814525462962963,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 79,
+      "direct_vs_remap_mae": 0.00010886863425925926,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 81,
+      "direct_vs_remap_mae": 0.0001150173611111111,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 83,
+      "direct_vs_remap_mae": 0.00011320891203703704,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 85,
+      "direct_vs_remap_mae": 0.00011935763888888888,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 87,
+      "direct_vs_remap_mae": 0.00011574074074074075,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 89,
+      "direct_vs_remap_mae": 0.00012622974537037038,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 90,
+      "direct_vs_remap_mae": 0.0001247829861111111,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 93,
+      "direct_vs_remap_mae": 0.00011212384259259259,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 95,
+      "direct_vs_remap_mae": 0.00011176215277777778,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 97,
+      "direct_vs_remap_mae": 0.00010452835648148149,
+      "direct_vs_remap_max": 4,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 99,
+      "direct_vs_remap_mae": 0.00010271990740740741,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 101,
+      "direct_vs_remap_mae": 9.584780092592593e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 103,
+      "direct_vs_remap_mae": 8.644386574074075e-05,
+      "direct_vs_remap_max": 5,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 105,
+      "direct_vs_remap_mae": 8.969907407407407e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 107,
+      "direct_vs_remap_mae": 0.00010452835648148149,
+      "direct_vs_remap_max": 4,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 109,
+      "direct_vs_remap_mae": 9.006076388888889e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 221,
+      "direct_vs_remap_mae": 0.00012803819444444446,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 222,
+      "direct_vs_remap_mae": 0.00013527199074074074,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 224,
+      "direct_vs_remap_mae": 0.00013780381944444444,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 226,
+      "direct_vs_remap_mae": 0.00013780381944444444,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 228,
+      "direct_vs_remap_mae": 0.00014756944444444445,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 230,
+      "direct_vs_remap_mae": 0.00015480324074074075,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 232,
+      "direct_vs_remap_mae": 0.00016348379629629628,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 234,
+      "direct_vs_remap_mae": 0.00015842013888888888,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 235,
+      "direct_vs_remap_mae": 0.00014576099537037037,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 237,
+      "direct_vs_remap_mae": 0.00016746238425925926,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 239,
+      "direct_vs_remap_mae": 0.00014431423611111112,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 241,
+      "direct_vs_remap_mae": 0.00014937789351851852,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 243,
+      "direct_vs_remap_mae": 0.00013165509259259258,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 245,
+      "direct_vs_remap_mae": 0.00013165509259259258,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 247,
+      "direct_vs_remap_mae": 0.00012116608796296296,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 249,
+      "direct_vs_remap_mae": 0.00011646412037037037,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 251,
+      "direct_vs_remap_mae": 0.00012008101851851852,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 253,
+      "direct_vs_remap_mae": 0.00011067708333333333,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 255,
+      "direct_vs_remap_mae": 8.752893518518518e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 257,
+      "direct_vs_remap_mae": 0.00010850694444444444,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 259,
+      "direct_vs_remap_mae": 9.114583333333334e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 261,
+      "direct_vs_remap_mae": 8.246527777777778e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 263,
+      "direct_vs_remap_mae": 0.0001048900462962963,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 272,
+      "direct_vs_remap_mae": 0.00010416666666666667,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 278,
+      "direct_vs_remap_mae": 7.993344907407408e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 328,
+      "direct_vs_remap_mae": 0.00013852719907407406,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 330,
+      "direct_vs_remap_mae": 0.00013816550925925926,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 332,
+      "direct_vs_remap_mae": 0.00014467592592592592,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 334,
+      "direct_vs_remap_mae": 0.00014684606481481482,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 336,
+      "direct_vs_remap_mae": 0.00015263310185185185,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 338,
+      "direct_vs_remap_mae": 0.00014829282407407407,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 340,
+      "direct_vs_remap_mae": 0.00015588831018518518,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 341,
+      "direct_vs_remap_mae": 0.00016167534722222223,
+      "direct_vs_remap_max": 4,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 342,
+      "direct_vs_remap_mae": 0.00015588831018518518,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 344,
+      "direct_vs_remap_mae": 0.00013925057870370371,
+      "direct_vs_remap_max": 4,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 346,
+      "direct_vs_remap_mae": 0.00014069733796296297,
+      "direct_vs_remap_max": 5,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 348,
+      "direct_vs_remap_mae": 0.00013961226851851851,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 350,
+      "direct_vs_remap_mae": 0.00013382523148148148,
+      "direct_vs_remap_max": 4,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 352,
+      "direct_vs_remap_mae": 0.00012550636574074075,
+      "direct_vs_remap_max": 5,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 354,
+      "direct_vs_remap_mae": 0.00012369791666666668,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 356,
+      "direct_vs_remap_mae": 9.729456018518518e-05,
+      "direct_vs_remap_max": 4,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 358,
+      "direct_vs_remap_mae": 9.367766203703704e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 359,
+      "direct_vs_remap_mae": 0.00010054976851851852,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 361,
+      "direct_vs_remap_mae": 0.00010452835648148149,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 363,
+      "direct_vs_remap_mae": 0.0001150173611111111,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 365,
+      "direct_vs_remap_mae": 0.00010706018518518519,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 367,
+      "direct_vs_remap_mae": 0.0001099537037037037,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 369,
+      "direct_vs_remap_mae": 0.00013057002314814816,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 371,
+      "direct_vs_remap_mae": 0.00011429398148148148,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 373,
+      "direct_vs_remap_mae": 0.00013274016203703703,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 376,
+      "direct_vs_remap_mae": 0.00010018807870370371,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 379,
+      "direct_vs_remap_mae": 0.00011320891203703704,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 383,
+      "direct_vs_remap_mae": 0.00010923032407407408,
+      "direct_vs_remap_max": 5,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 388,
+      "direct_vs_remap_mae": 0.0001048900462962963,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 393,
+      "direct_vs_remap_mae": 0.00011646412037037037,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 398,
+      "direct_vs_remap_mae": 9.98263888888889e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 402,
+      "direct_vs_remap_mae": 8.969907407407407e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 410,
+      "direct_vs_remap_mae": 8.7890625e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 419,
+      "direct_vs_remap_mae": 9.078414351851852e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 420,
+      "direct_vs_remap_mae": 8.825231481481481e-05,
+      "direct_vs_remap_max": 3,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 422,
+      "direct_vs_remap_mae": 9.512442129629629e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 424,
+      "direct_vs_remap_mae": 8.53587962962963e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 427,
+      "direct_vs_remap_mae": 8.680555555555556e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    },
+    {
+      "frame": 428,
+      "direct_vs_remap_mae": 9.331597222222223e-05,
+      "direct_vs_remap_max": 2,
+      "direct_undistort_q95_vs_label_mae": 0.0,
+      "jpeg_bytes_equal": true,
+      "scope": "numerical compatibility, not execution provenance"
+    }
+  ],
+  "prior_full_100_remap_q95_mae": "../bb100_calibration_provenance_20261109/summary.json",
+  "limitation": "no independent calibration/GT certification"
+}

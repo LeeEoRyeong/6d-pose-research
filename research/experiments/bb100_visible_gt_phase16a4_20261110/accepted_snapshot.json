@@ -1,0 +1,66 @@
+{
+  "source": "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a3_20261110/annotations",
+  "copied_user_accepted_frames": {
+    "000043": {
+      "revision": "20261110T134029.684047Z_a1965f96",
+      "files": 135,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "cfc1785f79c6378ba26fd35a2b2a27ae1ba1321f4b1bd2586df4e13ecd272682"
+    },
+    "000247": {
+      "revision": "20261110T134039.198862Z_50d3a7fd",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "63be05d94679c8f048c09d3a4a804c1af018b4e35dd42f954f7164143a71bcfd"
+    },
+    "000383": {
+      "revision": "20261110T134047.268284Z_1581a1e4",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "663823105aec9ef2cc170e60e0fa5828cfd17d71fe5ac6975353077d9242a197"
+    },
+    "000420": {
+      "revision": "20261110T134050.537464Z_d3273d80",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "df99193c4096b83b477197d929acede071484573dc082f2bfb2c63740b0f0d58"
+    },
+    "000075": {
+      "revision": "20261110T134154.882325Z_c17a4150",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "14d18860966bd24c936b6ceb7f2ee497ce93279930365a3d14c10bc1bf0640b9"
+    },
+    "000235": {
+      "revision": "20261110T134348.455814Z_21cdc91c",
+      "files": 10,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "92cf6aa605360ff0d05917e6f9353e88e52ae05308b723d7827ae9e96caa8599"
+    },
+    "000099": {
+      "revision": "20261110T134553.259808Z_48479b5b",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "cbae622ff12cc2f0872e759e2e7eac17efd1d7e2ad83b60da608da90b66c6617"
+    },
+    "000221": {
+      "revision": "20261110T134612.044867Z_e6a0c50d",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "74ee98accd2584a6309ccd5d88219aa3cd0a417fca8d67361d56883831ea9ec5"
+    },
+    "000340": {
+      "revision": "20261110T134630.625840Z_e1376ae4",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "99a93e87f10dabd7a0ec1d20fb38cb84ac24c3b6d65e0cfb872b122551948f33"
+    },
+    "000359": {
+      "revision": "20261110T134639.817488Z_d0ce072a",
+      "files": 5,
+      "source_and_copy_hash_match": true,
+      "mask_sha256": "11a512b246d031bff3b965a17ca723db83712588050dcc1c38de6be9e462512a"
+    }
+  },
+  "warning": "new workspace snapshot; subsequent edits in old server are not automatically synchronized"
+}

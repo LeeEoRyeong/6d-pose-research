@@ -1,0 +1,16 @@
+{
+  "cases": 104,
+  "trials": 7800,
+  "deterministic_methods": 10,
+  "random_matched_targets": 7,
+  "random_subsets_per_target": 5,
+  "order_shuffles_per_method": 3,
+  "dedup_equal_count_cases": 104,
+  "warnings": [
+    "GT-free; PnP return is not accuracy",
+    "selected-subset error can be biased; all-original-point reprojection always reported",
+    "repeated random trials are not independent frames",
+    "timings concurrent 4 CPU workers, PnP only",
+    "OpenCV random seed control unproven; input permutations explicitly generated"
+  ]
+}

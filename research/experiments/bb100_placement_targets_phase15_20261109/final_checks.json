@@ -1,0 +1,30 @@
+{
+  "source_phase12_hash_checked": 307,
+  "modified": [],
+  "review_csv_sha256": "PASS",
+  "zip_100_images_integrity": "PASS",
+  "browser_firefox_headless": {
+    "cards": 99,
+    "images": 198,
+    "first_image_load": "PASS",
+    "change_status_and_note": "PASS",
+    "filter": "PASS",
+    "local_storage_reload": "PASS",
+    "quoted_csv_parse": "PASS",
+    "actual_windows_chrome": "NOT TESTED"
+  },
+  "occlusion_summary": {
+    "NONE": {
+      "n": 39,
+      "mean_cad_pixels": 17150.74358974359,
+      "median_cad_pixels": 17801.0,
+      "valid_supervision_pixels": 0
+    },
+    "PARTIAL": {
+      "n": 61,
+      "mean_cad_pixels": 18242.09836065574,
+      "median_cad_pixels": 17801.0,
+      "valid_supervision_pixels": 0
+    }
+  }
+}

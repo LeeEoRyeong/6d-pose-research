@@ -1,0 +1,16 @@
+{
+  "seed_groups": 104,
+  "original_seed_groups_unchanged": 104,
+  "all_setting_seed_groups": 1560,
+  "setting_seed_groups_with_any_change": 0,
+  "setting_1p5_150_vs_seed_phase_mismatch": 0,
+  "unique_input_counts": {
+    "baseline": 27,
+    "changed_roi": 77
+  },
+  "calls_seed": 2080,
+  "calls_grid": 31200,
+  "prediction_xyz_cache_matches_prior_median": true,
+  "causal_note": "20 nominal seeds produced identical outputs here; independence of RANSAC samples is not established",
+  "timing_note": "4 CPU workers concurrently; solvePnPRansac wall time only, excludes reprojection; not isolated benchmark"
+}

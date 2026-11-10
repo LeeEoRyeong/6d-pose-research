@@ -1,0 +1,27 @@
+{
+  "frame": "000247",
+  "occlusion": "NONE",
+  "status": "ACCEPTED",
+  "saved": true,
+  "revision": "20261110T134039.198862Z_50d3a7fd",
+  "parent_revision": null,
+  "saved_utc": "2026-11-10T13:40:39.198862+00:00",
+  "candidate": "C_CAD_SAM",
+  "candidate_sha256": "63be05d94679c8f048c09d3a4a804c1af018b4e35dd42f954f7164143a71bcfd",
+  "rgb_sha256": "a008c81b3ea75270dc58d9215b80d3e87a4a341482b1c5e556b3e7dc44b131ef",
+  "mask_sha256": "63be05d94679c8f048c09d3a4a804c1af018b4e35dd42f954f7164143a71bcfd",
+  "foreground_pixels": 17098,
+  "ignore_pixels": 0,
+  "background_pixels": 904502,
+  "bbox_visib_xywh": [
+    547,
+    321,
+    203,
+    147
+  ],
+  "note": "",
+  "accepted_explicitly": true,
+  "is_accepted_reference": true,
+  "binary_is_final_bop_compatible": true,
+  "warning": "128은 제외; 이진 전경과 유효영역을 함께 사용"
+}

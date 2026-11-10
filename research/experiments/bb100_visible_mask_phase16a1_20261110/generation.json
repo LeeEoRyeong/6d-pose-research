@@ -1,0 +1,296 @@
+{
+  "model": "SAM 2.1 hiera tiny, local checkpoint",
+  "checkpoint_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "frames": [
+    {
+      "frame": 43,
+      "bbox_xyxy": [
+        381,
+        214,
+        558,
+        366
+      ],
+      "positive_point_xy": [
+        496,
+        305
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 45,
+        "edge_distance_px": 35.181396484375
+      },
+      "sam_source": "existing SAM candidate",
+      "selected_index_new_run": null,
+      "model_scores_new_run": null,
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 247,
+      "bbox_xyxy": [
+        546,
+        317,
+        751,
+        467
+      ],
+      "positive_point_xy": [
+        673,
+        404
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 49,
+        "edge_distance_px": 39.393798828125
+      },
+      "sam_source": "existing SAM candidate",
+      "selected_index_new_run": null,
+      "model_scores_new_run": null,
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 383,
+      "bbox_xyxy": [
+        695,
+        206,
+        914,
+        364
+      ],
+      "positive_point_xy": [
+        815,
+        304
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 44,
+        "edge_distance_px": 36.98139190673828
+      },
+      "sam_source": "new SAM inference",
+      "selected_index_new_run": 2,
+      "model_scores_new_run": [
+        0.9609375,
+        0.94140625,
+        0.96875
+      ],
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 420,
+      "bbox_xyxy": [
+        697,
+        208,
+        911,
+        362
+      ],
+      "positive_point_xy": [
+        816,
+        304
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 45,
+        "edge_distance_px": 36.378292083740234
+      },
+      "sam_source": "new SAM inference",
+      "selected_index_new_run": 0,
+      "model_scores_new_run": [
+        0.96484375,
+        0.90625,
+        0.96484375
+      ],
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 75,
+      "bbox_xyxy": [
+        382,
+        213,
+        557,
+        366
+      ],
+      "positive_point_xy": [
+        495,
+        306
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 45,
+        "edge_distance_px": 35.17209243774414
+      },
+      "sam_source": "existing SAM candidate",
+      "selected_index_new_run": null,
+      "model_scores_new_run": null,
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 235,
+      "bbox_xyxy": [
+        546,
+        317,
+        751,
+        467
+      ],
+      "positive_point_xy": [
+        673,
+        404
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 43,
+        "edge_distance_px": 39.393798828125
+      },
+      "sam_source": "existing SAM candidate",
+      "selected_index_new_run": null,
+      "model_scores_new_run": null,
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 99,
+      "bbox_xyxy": [
+        462,
+        110,
+        661,
+        262
+      ],
+      "positive_point_xy": [
+        582,
+        203
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 41,
+        "edge_distance_px": 36.59379196166992
+      },
+      "sam_source": "new SAM inference",
+      "selected_index_new_run": 2,
+      "model_scores_new_run": [
+        0.83203125,
+        0.91796875,
+        0.94140625
+      ],
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 221,
+      "bbox_xyxy": [
+        538,
+        301,
+        771,
+        465
+      ],
+      "positive_point_xy": [
+        672,
+        396
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 44,
+        "edge_distance_px": 41.78449249267578
+      },
+      "sam_source": "new SAM inference",
+      "selected_index_new_run": 2,
+      "model_scores_new_run": [
+        0.80859375,
+        0.91015625,
+        0.9296875
+      ],
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 340,
+      "bbox_xyxy": [
+        539,
+        303,
+        770,
+        466
+      ],
+      "positive_point_xy": [
+        671,
+        397
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 41,
+        "edge_distance_px": 41.181392669677734
+      },
+      "sam_source": "new SAM inference",
+      "selected_index_new_run": 2,
+      "model_scores_new_run": [
+        0.8125,
+        0.9140625,
+        0.93359375
+      ],
+      "scores_are_not_accuracy": true
+    },
+    {
+      "frame": 359,
+      "bbox_xyxy": [
+        695,
+        210,
+        913,
+        364
+      ],
+      "positive_point_xy": [
+        815,
+        304
+      ],
+      "prompt_info": {
+        "criterion": "dark pixel among CAD interior, not verified foreground",
+        "gray": 47,
+        "edge_distance_px": 37.0
+      },
+      "sam_source": "new SAM inference",
+      "selected_index_new_run": 2,
+      "model_scores_new_run": [
+        0.8515625,
+        0.90625,
+        0.94921875
+      ],
+      "scores_are_not_accuracy": true
+    }
+  ],
+  "six_new_inferences_only": [
+    383,
+    420,
+    99,
+    221,
+    340,
+    359
+  ],
+  "four_reused": [
+    43,
+    247,
+    75,
+    235
+  ],
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "peak_allocated_bytes": 583890944,
+  "peak_reserved_bytes": 679477248,
+  "elapsed_sec": 1.31,
+  "source_hashes_unchanged": true,
+  "source_hashes": {
+    "/home/oylee/projects/HCCEPose_experiments/bb_sam_candidates_20261108/sam2.1_hiera_tiny.pt": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000043.jpg": "2093600e849dcae42ae8d9f0d867f295511cba7d87f8d7dcdde4669c5f0d4fa2",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_43.png": "32a3e06130cfeb74a47b0e99e639e7b60bd860c2b41650fc8d43bae5296bb0d3",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000247.jpg": "a008c81b3ea75270dc58d9215b80d3e87a4a341482b1c5e556b3e7dc44b131ef",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_235.png": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000383.jpg": "aaf8af3c0198cd38ec3976d69978a1dc2556bad8539edb7a124e48aab22e7691",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_373.png": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000420.jpg": "6932ab0893c494d8091fe0ab353a806b01af7d650f2afe94ac29650d82db604d",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_420.png": "5ecc3dbb3070176fad1af587757b2e6e791bfd16b0d5fd9d14e2803c660d4f90",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000075.jpg": "a1ba394b27f8927b2767d81bd2e1639a0207e761ebd440568cf6a8307237617a",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_31.png": "15e1c7ee436ecfc5f1acb0d23bbe760d4b14d034f6ff524b4671a256081c7cd1",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000235.jpg": "43e49f460d957444c75f3eda2dda4b2c1e45423e348c56ed99dcec870bc389ce",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000099.jpg": "4f035c138235a60ef5dc70c3b14a5cc9c9ac4a09bdecd82a0c238df319f240d9",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_99.png": "b0f043b5a69aef347d772c9ae565a883c506935ebaaaa4e9dfc38184e3137b20",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000221.jpg": "5581cabc44eb76aafd4a4d53fd3dcc64b751b4cfc94863ca5f65af733106c1e5",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_221.png": "8f18c499ab39e26d6815ee7a678bd593a96719496c38e719750615a5804a8a49",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000340.jpg": "6f32f9878e2f2324e703cac81ce7aef4f13a167899416ea4bb074fb14d8996af",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_340.png": "87b78032b087b03c39e4b02056c4cbdfbc80ff6171efe0051fa3731f3b7c0670",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000359.jpg": "1343beef3529e25de2a86382022fc7cafe98034282b90de7966acbc363ade588",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_placement_targets_phase15_20261109/amodal_masks/pose_359.png": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+    "/home/oylee/projects/HCCEPose_experiments/bb_sam_candidates_20261108/results/run_20261108T140008_86355c19/000043_pseudo_mask_candidate_selected.png": "5abfa1becc3efa3497fd027cb760e88ba9b7acb7d8225adb5553ca9bfae11ffb",
+    "/home/oylee/projects/HCCEPose_experiments/bb_sam_candidates_20261108/results/run_20261108T140008_86355c19/000247_pseudo_mask_candidate_selected.png": "8220ad5af6d15b67fb52eac25545afe9dd596dc9a2a95dd04e89ffd0165e9237",
+    "/home/oylee/projects/HCCEPose_experiments/bb_sam_candidates_20261108/results/run_20261108T140008_86355c19/000075_pseudo_mask_candidate_selected.png": "c57fefdf73cfcdc6e376c5159e5e92177d5f689502bc55b5bc528347c642c7ab",
+    "/home/oylee/projects/HCCEPose_experiments/bb_sam_candidates_20261108/results/run_20261108T140008_86355c19/000235_pseudo_mask_candidate_selected.png": "ec059f907cce6e40be2a8377b63e8719a29864e5303a58be96b9c5cd70201306"
+  },
+  "uncertainty_rule": "128=CAD union SAM uncertain, 0=not assigned, NO supervised foreground or background"
+}

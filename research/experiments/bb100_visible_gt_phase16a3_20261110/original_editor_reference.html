@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BB Visible Mask 검수</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#eef1f6;background:#151a22}body{margin:0}header{padding:14px 20px;background:#212a37;display:flex;gap:18px;align-items:center;flex-wrap:wrap}h1{font-size:19px;margin:0}.warn{color:#ffd68c}main{padding:16px;max-width:1800px;margin:auto}.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}button,select{font-size:14px;padding:8px;border:1px solid #6a788d;border-radius:5px;background:#303c4d;color:white}button.active{background:#335fba;border-color:#8db4ff}button:disabled{opacity:.45}label{display:inline-flex;gap:6px;align-items:center}input[type=range]{width:115px}.columns{display:grid;grid-template-columns:minmax(260px,1fr) minmax(260px,1fr);gap:12px}.panel{background:#232b36;padding:10px;border-radius:7px;min-width:0}.panel h2{font-size:15px;margin:0 0 8px}.panel img{display:block;max-width:100%;height:auto}.scroll{overflow:auto;max-height:72vh;background:#0c1016;border:1px solid #59697d;min-height:300px}canvas{display:block;touch-action:none;cursor:crosshair;image-rendering:auto}#message{min-height:25px;color:#ffdb85;white-space:pre-wrap}.meta{font-size:13px;line-height:1.6;color:#d9e0ec}.legend{color:#ff9191}.cad{color:#ffd65a}@media(max-width:850px){.columns{grid-template-columns:1fr}}
+</style></head><body>
+<header><h1>BB 실사 Visible Mask 검수</h1><span class="warn">CAD amodal은 초기값입니다. 검수 전에는 GT가 아닙니다.</span></header>
+<main>
+<div class="controls"><label>프레임 <select id="frame"></select></label><strong id="status"></strong><span id="dirty"></span></div>
+<div class="controls"><button id="add" class="active">브러시 추가</button><button id="erase">브러시 제거</button><label>크기 <input id="brush" type="range" min="1" max="100" value="18"><span id="brushValue">18 px</span></label><button id="undo">실행 취소</button><button id="reset">저장본 다시 불러오기</button></div>
+<div class="controls"><label>확대 <input id="zoom" type="range" min="25" max="400" value="100" step="25"><span id="zoomValue">100%</span></label><label>마스크 투명도 <input id="opacity" type="range" min="0" max="100" value="45"><span id="opacityValue">45%</span></label><label><input type="checkbox" id="showCad" checked> CAD 외곽 표시</label><button id="save">수정 중으로 저장</button><button id="review">검수 완료로 저장</button></div>
+<div id="message" role="status" aria-live="polite"></div>
+<div class="columns"><section class="panel"><h2>원본 RGB — 읽기 전용</h2><img id="rgbPreview" alt="원본 RGB"></section><section class="panel"><h2>CAD 투영 — 읽기 전용 <span class="cad">노란 외곽</span></h2><img id="cadPreview" alt="CAD 전체 투영 오버레이"></section></div>
+<section class="panel" style="margin-top:12px"><h2>편집: <span class="legend">빨강 = 현재 visible 후보</span>, <span class="cad">노랑 = CAD amodal 외곽</span></h2><div class="scroll"><canvas id="editor"></canvas></div><div id="metrics" class="meta"></div></section>
+<p class="meta">붓은 원본 이미지 픽셀 기준입니다. 스크롤 영역에서 확대된 영상을 이동할 수 있습니다. 빈 마스크는 저장되지 않습니다. 저장 시 원본 해상도 이진 PNG와 검토용 오버레이가 새 버전으로 기록됩니다.</p>
+</main><script src="/app.js"></script></body></html>

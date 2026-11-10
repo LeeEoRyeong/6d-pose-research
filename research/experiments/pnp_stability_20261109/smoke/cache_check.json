@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "samples": 6,
+  "prior_roi_reproduction": "PASS all selected conditions",
+  "direct_solver_equivalence": "PASS success/R/t and original reprojected inliers; direct EPNP RANSAC matching op2",
+  "pixel_equal_undistortion": true,
+  "finite_correspondences": true,
+  "source_hashes_unchanged": true,
+  "source_sha256": {
+    "/home/oylee/projects/HCCEPose_experiments/itodd_official_audit_20261108/itodd_obj04_1_0000step50000.pt": "224c0869e20be8c9825b77925837e98f0e4c31ae1006361cddd1b46e0cb48ffc",
+    "/home/oylee/projects/HCCEPose_experiments/itodd_official_audit_20261108/official_obj_000004.ply": "0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f",
+    "/home/oylee/projects/HCCEPose_experiments/itodd_official_audit_20261108/official_models_info.json": "d42d1d5c90c3b78fb014e4e01a604f3e33271b8f2254191a605f8c7d244c4c0f",
+    "/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/pose_eval.csv": "2efa9eb8e51b7f7999213c3a3243c5f71368f91ef9362ed2cbf6dbb383f0101d",
+    "/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/detector_eval.csv": "9c9a3ff0ce3a0d81664b2653dbb1500a0e316af5fea21250adace477879036df",
+    "/home/oylee/projects/HCCEPose_experiments/roi_prediction_stability_20261109/full/per_frame.csv": "15fde203b30917434b7d19acc4030efbd7207167c3138ef74b6bd9ea496c1fd6",
+    "/home/oylee/projects/HCCEPose_obj04_transfer/camera_params.json": "e8bc2e76558bb58208bb5b5219e85a2398f5b98ca3cdd88cade52493cbea26eb",
+    "/home/oylee/projects/HCCEPose_obj04_transfer/image/000026.jpg": "bd6dcb00d21e75af267b6fbcb8abe92050d995620406d2f233786134d888e457",
+    "/home/oylee/projects/HCCEPose_obj04_transfer/image/000066.jpg": "5ee363ab7ce2738157992f4cea7c77a368271809aa5766f39f03e13eb708f547",
+    "/home/oylee/projects/HCCEPose_obj04_transfer/image/000068.jpg": "02d24f4da09f2f7d06d818b613ef172de97b23f50f2acb45a519e8c79f38551a",
+    "/home/oylee/projects/HCCEPose_obj04_transfer/image/000094.jpg": "e0d1d0e551c6a2a2f932119ec6b46f540eb624ea38375bdab649983fdf975c9f"
+  },
+  "scope": "27 baseline plus all 12 conditions for 7 anomalous frames; no GT",
+  "input_weights_note": "YOLO checkpoint identified only, saved predicted bbox reused"
+}

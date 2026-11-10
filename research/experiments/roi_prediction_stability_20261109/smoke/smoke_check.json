@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "frames": [
+    26,
+    68,
+    94
+  ],
+  "conditions": 12,
+  "undistortion": "pixel equal to controlled PNG",
+  "baseline_matches_previous_prediction": true,
+  "symmetry_synthetic_check": "PASS",
+  "repeat": [
+    {
+      "frame": 26,
+      "repeat": 0,
+      "same_pnp_valid": true,
+      "rotation_diff_deg": 0.0,
+      "translation_diff": 0.0,
+      "same_mask": true,
+      "same_xyz": true
+    },
+    {
+      "frame": 26,
+      "repeat": 1,
+      "same_pnp_valid": true,
+      "rotation_diff_deg": 0.0,
+      "translation_diff": 0.0,
+      "same_mask": true,
+      "same_xyz": true
+    },
+    {
+      "frame": 26,
+      "repeat": 2,
+      "same_pnp_valid": true,
+      "rotation_diff_deg": 0.0,
+      "translation_diff": 0.0,
+      "same_mask": true,
+      "same_xyz": true
+    }
+  ],
+  "input_hashes_unchanged": true
+}

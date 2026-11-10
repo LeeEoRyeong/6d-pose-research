@@ -1,0 +1,7 @@
+{
+  "phase12_unchanged_files": 307,
+  "changed": [],
+  "hcce_checkpoint_sha256": "224c0869e20be8c9825b77925837e98f0e4c31ae1006361cddd1b46e0cb48ffc",
+  "browser_firefox": "PASS: 6 cards, export and reload",
+  "windows_chrome": "NOT_TESTED"
+}

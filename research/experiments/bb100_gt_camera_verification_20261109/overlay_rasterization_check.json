@@ -1,0 +1,72 @@
+[
+  {
+    "frame": 31,
+    "iou_to_existing_cpu_renderer": 0.9730972782258065,
+    "ours_area": 15829,
+    "renderer_area": 15488,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 43,
+    "iou_to_existing_cpu_renderer": 0.969834274719136,
+    "ours_area": 16048,
+    "renderer_area": 15688,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 67,
+    "iou_to_existing_cpu_renderer": 0.9722657965740101,
+    "ours_area": 15866,
+    "renderer_area": 15566,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 75,
+    "iou_to_existing_cpu_renderer": 0.9730972782258065,
+    "ours_area": 15829,
+    "renderer_area": 15488,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 99,
+    "iou_to_existing_cpu_renderer": 0.9651155547249736,
+    "ours_area": 16015,
+    "renderer_area": 15531,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 221,
+    "iou_to_existing_cpu_renderer": 0.9805608119731636,
+    "ours_area": 23237,
+    "renderer_area": 22815,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 235,
+    "iou_to_existing_cpu_renderer": 0.9717393680988302,
+    "ours_area": 18270,
+    "renderer_area": 17801,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 247,
+    "iou_to_existing_cpu_renderer": 0.9717393680988302,
+    "ours_area": 18270,
+    "renderer_area": 17801,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 340,
+    "iou_to_existing_cpu_renderer": 0.9780881711043212,
+    "ours_area": 22864,
+    "renderer_area": 22454,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  },
+  {
+    "frame": 379,
+    "iou_to_existing_cpu_renderer": 0.972450358665142,
+    "ours_area": 19181,
+    "renderer_area": 18765,
+    "scope": "synthetic CAD rasterization agreement, not visible GT or pose validation"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "frame": "000419",
+  "occlusion": "NONE",
+  "status": "ACCEPTED",
+  "saved": true,
+  "revision": "20261110T150153.102231Z_afc7ba99",
+  "parent_revision": null,
+  "saved_utc": "2026-11-10T15:01:53.102231+00:00",
+  "candidate": "D_SAM_ROBOT",
+  "candidate_sha256": "bc6ef0f220007d25a2eb87f487d9dc97048ffff62d878a5a36ebd3c36f466d4f",
+  "rgb_sha256": "6ab9838b2f1ca4788323a6beb3a0b00392e96e47da93deb3cb5d703e718c05d7",
+  "mask_sha256": "20268c85b68b917db782c10775a8d9d2ff263babfd4c10138702b28d8d0b7c9d",
+  "modified": true,
+  "modified_pixels": 1164,
+  "approved_utc": "2026-11-10T15:01:53.102231+00:00",
+  "save_path": "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/annotations/000419/versions/20261110T150153.102231Z_afc7ba99/working_mask.png",
+  "foreground_pixels": 18513,
+  "ignore_pixels": 160,
+  "background_pixels": 902927,
+  "bbox_visib_xywh": [
+    695,
+    207,
+    223,
+    159
+  ],
+  "note": "",
+  "accepted_explicitly": true,
+  "is_accepted_reference": true,
+  "binary_is_final_bop_compatible": false,
+  "warning": "128은 제외; 이진 전경과 유효영역을 함께 사용"
+}

@@ -1,0 +1,9 @@
+{
+  "phase12_sources_unchanged": 307,
+  "changed": [],
+  "hcce_checkpoint_sha256": "224c0869e20be8c9825b77925837e98f0e4c31ae1006361cddd1b46e0cb48ffc",
+  "firefox_review_block_warning_valid_png_csv": "PASS",
+  "windows_chrome": "NOT_TESTED",
+  "checkpoint_download": "NOT_ATTEMPTED_SIZE_UNKNOWN_HTTP_403",
+  "robotseg_inference": "NOT_RUN"
+}

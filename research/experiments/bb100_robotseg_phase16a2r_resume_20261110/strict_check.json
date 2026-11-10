@@ -1,0 +1,10 @@
+{
+  "model_keys": 585,
+  "checkpoint_keys": 585,
+  "missing": [],
+  "extra": [],
+  "shape_mismatch": [],
+  "kornia": true,
+  "strict_load": "PASS",
+  "device": "cpu"
+}

@@ -1,0 +1,79 @@
+import csv,json,pathlib,numpy as np
+P=pathlib.Path(__file__).resolve().parent
+
+def read(p):
+ with p.open(newline='',encoding='utf8') as f:return list(csv.DictReader(f))
+s=json.loads((P/'summary.json').read_text());j=read(P/'jpeg_evidence.csv');pairs=read(P/'same_pose_pair_metrics.csv');r=read(P/'image_hypotheses.csv');stats=s['stats'];mean=lambda n:stats[n]['mean'];med=lambda n:stats[n]['median'];
+statuses=[{'item':'RAW 이미지 출처','status':'VERIFIED','scope':'지정 run의 JPEG 100개가 해당 frame mapping 및 상태 경로에 존재; 카메라 원본 센서 RAW/ISP 여부는 미검증'}, {'item':'RAW–라벨 프레임 대응','status':'LIKELY','scope':'100개 파일명·상태 경로 일치와 보정+JPEG 재현 영상 높은 유사도; 라벨 측 독립 촬영/변환 로그 부재'}, {'item':'BB camera calibration ID','status':'UNKNOWN','scope':'카메라 ID/BB calibration 측정 문서 및 라벨 EXIF camera model을 찾지 못함'}, {'item':'BOP JSON K 값','status':'VERIFIED','scope':'100개 scene_camera K가 빌더 하드코딩 및 개발27 K와 수치 일치; 물리 카메라 실측 K의 인증은 아님'}, {'item':'BB 실측 K','status':'UNKNOWN','scope':'해당 장치와 측정 이력 독립 근거 미확인'}, {'item':'BB 실제 D','status':'UNKNOWN','scope':'개발27 D 가정 시 픽셀 호환성 높으나 실제 파라미터·측정 출처 확인 불가'}, {'item':'기존 라벨 newK','status':'UNKNOWN','scope':'개발27 newK=K 재현은 강한 호환성; 실제 생성기 옵션/실행 로그 없음'}, {'item':'보정 횟수','status':'LIKELY','scope':'개발27 K,D 가정 1회+JPEG95 출력과 거의 일치; 실제 코드·중간 파일 이력 및 모든 변형 가설은 미확인'}, {'item':'GT Pose 실제 정합성','status':'UNKNOWN','scope':'CAD overlay는 생성된 pose 기반; 독립적인 pose 정답 및 camera 검증 부재'}, {'item':'학습 진행 가능 여부','status':'UNKNOWN','scope':'품질 요건 미입증으로 현재 HOLD/NO-GO, 100장 PASS 아님'}]
+with (P/'판정표.csv').open('x',newline='',encoding='utf8') as f:w=csv.DictWriter(f,fieldnames=list(statuses[0]));w.writeheader();w.writerows(statuses)
+status_table='\n'.join(f"| {x['item']} | {x['status']} | {x['scope']} |" for x in statuses)
+keys=[('보정 없음','mae_no_correction'),('개발27 K,D 가정 1회','mae_assumed_devKD_once'),('개발27 K,D 가정 2회','mae_assumed_devKD_twice'),('1회 가정 + JPEG q90','mae_assumed_once_jpeg90'),('1회 가정 + JPEG q95','mae_assumed_once_jpeg95'),('1회 가정 + JPEG q100','mae_assumed_once_jpeg100'),('1회 가정 + B/R 채널 뒤바꿈','mae_assumed_once_channel_swap')];table='\n'.join(f'| {label} | {mean(k):.6f} | {med(k):.6f} |' for label,k in keys)
+pairtable='\n'.join(f"| {x['frame_a']}–{x['frame_b']} | {x['pose_exact_group']} | {float(x['capture_delta_seconds']):.2f} | {float(x['whole_image_mae']):.2f} | {float(x['projected_neighborhood_mae']):.2f} |" for x in pairs)
+rep=', '.join(f'{i:03d}' for i in s['representative_P1_ids']);time_start=min(x['capture_wall_time'] for x in r);time_end=max(x['capture_wall_time'] for x in r)
+report=f'''# BB100 카메라 보정 이력 복구
+
+2026-11-09. **개발27 K,D를 가정한 1회 보정과 JPEG q95 재인코딩은 기존 라벨 JPEG의 픽셀을 거의 재현했다. 하지만 BB 카메라 calibration ID와 실제 변환 실행 기록은 확보하지 못했으므로 보정 출처는 인증되지 않았다.** GT 정확도는 UNKNOWN이며 BB100 실사 학습은 HOLD / NO-GO다.
+
+## 항목별 판정
+
+| 항목 | 판정 | 범위와 근거 |
+|---|---|---|
+{status_table}
+
+여기서 VERIFIED는 명시한 로컬 파일·수치 대응에만 적용한다. LIKELY는 조사한 가설과의 강한 호환성이지 실제 실행 증거가 아니다. UNKNOWN은 값이 틀렸다는 뜻이 아니라 독립적으로 확인하지 못한 상태다. RAW라 부르는 입력도 **카메라에서 저장된 JPEG**이며 센서 Bayer RAW나 카메라 ISP 보정이 없는 원본이라고 주장하지 않는다.
+
+## 출처 및 실행 이력 조사
+
+- 대상 run의 `rgb/` 아래 RAW 후보 JPEG는 428장이며 BB100의 100개 파일명이 `frame_opc_mapping.csv` 및 라벨 JPEG 파일명과 각각 대응한다. 100개 모두 RAW/라벨의 상태 디렉터리명이 같다. 선택된 100장의 capture log 시간은 {time_start}부터 {time_end}다. mapping의 `match_valid=1`은 100/100이나 이는 프레임과 로봇 OPC 상태의 시간 매칭 결과이며 라벨 JPEG가 해당 RAW에서 생성됐다는 독립 증명은 아니다.
+- 라벨 도구 `real_bb100_20261108/BB_obj04/pose_watcher_continuous_BB.py`는 Windows의 동일 run `rgb_undistorted` 경로를 사용한다. `build_obj04_bop.py`는 K를 하드코딩해 BOP `scene_camera_obj04.json`에 쓴다. 코드의 경로와 수치 존재는 해당 K,D를 실제 이미지 생성에 적용했다는 실행 로그가 아니다.
+- `/home/oylee` 아래 일반 연구 파일에서 `batch_undistort.py`, `*undistort*.py`, calibration JSON/YAML을 이름으로 검색하고, 주요 연구 경로의 Python·shell·Markdown·log에서 `batch_undistort`, `cv2.undistort`, `initUndistortRectifyMap`, `getOptimalNewCameraMatrix`를 검색했다(가상환경·패키지·체크포인트 제외). BB 원본 생성기나 해당 실행 로그는 발견하지 못했다. 개발27의 `camera_params.json`과 이후 연구 재현 스크립트는 발견했다. 이 검색은 원본 Windows 장비나 보관되지 않은 로그의 부재를 증명하지 않는다.
+- 대상 100쌍 RAW/라벨 JPEG는 모두 1280×720이고 바이트 SHA-256은 서로 같지 않다. 양쪽 파일의 EXIF 촬영 시각과 camera model은 이번 검사에서 각각 **0/100**이다. 파일 수정 시각은 서버로 복사한 시각일 수 있어 촬영 시각 증거로 취급하지 않았다. 이미지별 경로·파일 바이트 크기·SHA-256·mapping 시각·가설별 수치는 `image_hypotheses.csv`.
+
+## 보정 및 JPEG 가설 비교
+
+100장 전체의 디코딩된 BGR 채널 평균 절대 차이(MAE, 0–255 scale). 두 번 보정은 **RAW에 개발27 K,D 가정 보정을 연속 2회** 적용한 대조다. 실제 BB setting을 찾지 못했으므로 별도의 실제 BB 설정 행은 없다.
+
+| 가설 | 평균 MAE | 프레임 중앙 MAE |
+|---|---:|---:|
+{table}
+
+한 번 보정한 픽셀과 라벨 JPEG의 MAE가 {mean('mae_assumed_devKD_once'):.3f}였는데, 그 가설 영상을 q95로 JPEG 인코딩·디코딩한 뒤에는 **{mean('mae_assumed_once_jpeg95'):.6f}**까지 낮아졌다. 100개 모두 q95 출력의 JPEG 양자화표와 chroma subsampling이 라벨 JPEG와 같았고, 평균 디코딩 성분의 **{100*np.mean([float(x['decoded_component_exact_fraction']) for x in j]):.4f}%**가 일치했다. 반면 JPEG **바이트 전체가 일치한 것은 0/100**이며 잔여 최대 성분 차이는 {max(int(x['decoded_max_abs_diff']) for x in j)}다. JPEG q90/q100 대조와 B/R 채널 뒤바꿈 대조는 차이가 더 컸다. 이는 이 가설이 영상 데이터와 매우 강하게 호환된다는 의미이며, 실제 encoder/library·K,D/newK·처리 횟수의 유일성을 보장하거나 미보존 로그를 대신하지 않는다. B/R 교환은 단순 채널 순서 오류의 한 예일 뿐 모든 색공간 처리를 검증한 것은 아니다. `jpeg_evidence.csv`에 파일별 바이트 해시·양자화표/sampling 일치와 디코딩 차이를 기록했다.
+
+`differences/`에는 대표 프레임별 보정 없음·1회·2회와 라벨 JPEG 간 절대 차이를 **4배 증폭한 이미지**가 있다. `comparison_panels/`는 4개 영상을 나란히 보여준다. 이 그림과 수치만으로 calibration ID 또는 pose 정확성을 인증하지 않는다.
+
+## 동일 Pose 그룹과 사람 검수 준비
+
+Phase 10의 P1 45장에서 pose 그룹·시간대를 고려해 대표 14장 **{rep}**을 선정했다. `p1_raw_projection/`은 RAW 후보, 라벨 JPEG, Phase 10의 라벨 JPEG+CAD 투영을 전체 화면과 확대 crop으로 나란히 보여준다. 투영은 CAD amodal이며 라벨 영상에 추가 보정을 하지 않았다. RAW 후보와 라벨 영상은 같은 좌표 보정 상태라고 가정하지 않는다. 사람의 독립 pose 검수나 PASS 자동 부여는 하지 않았고, Phase 10 검수표의 HOLD 상태를 변경하지 않았다.
+
+동일 R,t의 대표 쌍은 다음과 같다. 이미지 MAE에는 물체뿐 아니라 그리퍼·배경·조명이 포함되므로 값 차이를 pose 오류의 근거로 단정하지 않는다.
+
+| 프레임 쌍 | pose 그룹 | 촬영 간격 초 | 전체 이미지 MAE | 투영 주변 crop MAE |
+|---|---:|---:|---:|---:|
+{pairtable}
+
+043→060은 기존 `legacy_000060.json`에 pose 복사 이력이 기록돼 있다. `same_pose_pairs/`에 다섯 쌍의 원본 라벨과 조건부 CAD 투영 비교를 저장했다. 동일/근접 pose 그룹과 단일 촬영 세션에 대한 기존 분할 제한은 유지한다.
+
+## 안전 및 다음 단계
+
+CPU만 사용했고 기존 파일을 변경하거나 학습·PnP 최적화를 수행하지 않았다. 이번 1차 비교의 원본·카메라·Phase 10 자료 {s['source_file_count']}개는 전후 SHA-256이 일치했다. 후속 JPEG·쌍 비교는 읽기 전용이다. 재현 명령은 `README.md`에 있다.
+
+BB 원본 Windows 장비에서 실제 undistort 스크립트와 실행 로그, calibration 파일·카메라 ID 및 newK/crop 옵션을 확보하고 촬영 시 알려진 타깃으로 잔차를 검증해야 한다. 그다음 사람의 pose·가림 검수와 별도 촬영 세션 분할이 필요하다. 지금의 픽셀 가설 일치는 학습 PASS로 변경할 근거가 아니다.
+''';(P/'연구_보고서.md').write_text(report,encoding='utf8')
+(P/'README.md').write_text('''# 재실행
+
+Phase 10 결과 및 RAW·라벨 JPEG가 기존 경로에 있어야 한다. CPU에서 실행하며 새 빈 디렉터리에 결과를 만든다. 데이터 출처는 보고서처럼 가설과 실행 증거를 구분한다.
+
+```bash
+set -e
+TASK_SRC=/home/oylee/projects/HCCEPose_experiments/bb100_calibration_provenance_20261109
+TASK_NEW=/home/oylee/projects/HCCEPose_experiments/bb100_calibration_reproduction_$(date +%Y%m%d_%H%M%S)
+mkdir "$TASK_NEW"
+cp "$TASK_SRC"/*.py "$TASK_NEW/"
+TASK_PY=/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/.venv/bin/python
+"$TASK_PY" -u -B "$TASK_NEW/compare.py" > "$TASK_NEW/run.log" 2>&1
+"$TASK_PY" -u -B "$TASK_NEW/jpeg_and_groups.py" > "$TASK_NEW/jpeg.log" 2>&1
+"$TASK_PY" -B "$TASK_NEW/report.py"
+```
+
+그림의 RAW는 저장된 JPEG 후보이고 센서 Bayer RAW라는 뜻이 아니다. 임의의 보정 파라미터를 학습에 적용하지 않는다.
+''',encoding='utf8');print('REPORT READY')

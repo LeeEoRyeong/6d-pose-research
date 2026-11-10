@@ -1,0 +1,36 @@
+{
+  "tests": [
+    {
+      "frame": 43,
+      "support_pixels": 15688,
+      "nonzero_gates": 0,
+      "rgb_crop": [
+        256,
+        256,
+        3
+      ],
+      "encoded_front": [
+        128,
+        128,
+        24
+      ]
+    },
+    {
+      "frame": 235,
+      "support_pixels": 17801,
+      "nonzero_gates": 0,
+      "rgb_crop": [
+        256,
+        256,
+        3
+      ],
+      "encoded_front": [
+        128,
+        128,
+        24
+      ]
+    }
+  ],
+  "source": "existing CPU-rendered CAD caches",
+  "training_target": "NOT VERIFIED; not visible GT"
+}

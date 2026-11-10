@@ -1,0 +1,18 @@
+{
+  "phase12_sources_hash_checked": 307,
+  "phase12_changed": [],
+  "phase15_pose_changes_sha256_now": "3dd63986fd306107e108be66e87144d6bff42b4aba0515916236f0e3f769a912",
+  "99_unique_and_status": "PASS",
+  "background_gate": "PASS",
+  "synthetic_geometry": "PASS",
+  "headless_firefox_import_export_persistence": "PASS",
+  "windows_chrome": "NOT TESTED",
+  "priority_counts": {
+    "P1_occlusion": 38,
+    "P1_unreliable_background": 34,
+    "P2_other_uncertainty": 26,
+    "P3_same_image_low_priority": 1
+  },
+  "no_verified_manual_boundary_truth": true,
+  "zip_integrity_and_image_count": "PASS"
+}

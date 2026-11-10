@@ -1,0 +1,16 @@
+{
+  "frames": 100,
+  "order_frame_and_monotonic_time": "PASS",
+  "unique_poses": 36,
+  "contiguous_pose_runs_candidate": 39,
+  "boundaries": 99,
+  "pose_change_boundaries": 38,
+  "amodal_unique_renders": 36,
+  "sam_candidates": 4,
+  "camera_K": "all match Phase14",
+  "cad_unit": "BOP convention mm; actual physical BB scale unverified",
+  "p99_reprojection_px_max": 0.48523074464381666,
+  "output_zip_references": "PASS",
+  "training_supervision_pixels": 0,
+  "elapsed_sec": 8.29
+}

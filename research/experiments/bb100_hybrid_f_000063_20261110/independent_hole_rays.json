@@ -1,0 +1,6 @@
+{
+  "closed_geometry_pixel_count": 473,
+  "independent_triangle_ray_hit_count": 0,
+  "hits": [],
+  "meaning": "no CAD triangle on pixel-center ray; does not prove RGB appearance or watertight topology"
+}

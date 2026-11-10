@@ -1,0 +1,10 @@
+{
+  "frames": 10,
+  "partially_occluded": 6,
+  "flow_prior_pairs": 6,
+  "robotseg_inference": "NOT_RUN_CHECKPOINT_UNAVAILABLE",
+  "robotseg_masks": 0,
+  "new_robotseg_candidates": 0,
+  "zip_references_crc": "PASS",
+  "windows_chrome": "NOT_TESTED"
+}

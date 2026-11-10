@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "tag": "smoke",
+  "frames": [
+    {
+      "frame": 235,
+      "image_shape": [
+        720,
+        1280
+      ],
+      "robotseg_gripper_pixels": 309,
+      "sam_pixels": 14110,
+      "cad_pixels": 17801,
+      "cad_sam_pixels": 12641,
+      "removed_sam_pixels": 0,
+      "removed_cad_sam_pixels": 0,
+      "removed_cad_pixels": 0,
+      "logit_min": -71.77490234375,
+      "logit_max": 32.17361068725586,
+      "seconds": 0.46,
+      "status": "PSEUDO_MASK_UNREVIEWED_NOT_GT"
+    }
+  ],
+  "checkpoint_sha256": "1384c38c4f313487a32503025d4566ac1d815f6be983199362fc4af19aaa06a2",
+  "source_hashes_unchanged": true,
+  "device": "NVIDIA GeForce RTX 5090",
+  "max_allocated_bytes": 612336128,
+  "max_reserved_bytes": 710934528,
+  "postprocessing": false,
+  "guided_refine": false,
+  "threshold": "raw logit > 0",
+  "semantic_category": "gripper",
+  "kornia": true,
+  "architecture_strict_load": "PASS",
+  "predictions": "NOT_GT"
+}

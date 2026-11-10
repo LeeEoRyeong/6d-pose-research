@@ -1,0 +1,26 @@
+{
+  "data": "Phase 7/8 validated 104 caches",
+  "scope": "27 baseline + 77 anomaly ROI; not independent",
+  "threshold_px": 1.5,
+  "iterations": 150,
+  "solver": "OpenCV EPNP",
+  "cv_seed": "42+frame, external RNG effect not established",
+  "dedup_decimals": [
+    3,
+    5,
+    7
+  ],
+  "dedup_representative": "first original index",
+  "grid_sizes": [
+    4,
+    8,
+    16
+  ],
+  "grid_selection": "nearest occupied cell centre, lowest index tie",
+  "random_matched_repeats": 5,
+  "sampling_randomness": "NumPy generator hashed per frame/condition/target/replicate",
+  "order_shuffles_per_method": 3,
+  "workers": 4,
+  "no_ground_truth": true,
+  "training": false
+}

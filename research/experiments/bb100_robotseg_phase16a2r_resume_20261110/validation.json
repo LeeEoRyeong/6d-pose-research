@@ -1,0 +1,11 @@
+{
+  "frames": 6,
+  "mask_format_and_formula": "PASS",
+  "A_equals_C_frames": 6,
+  "B_equals_D_frames": 6,
+  "archive_crc_and_links": "PASS",
+  "original_sources_checked": 307,
+  "changed": [],
+  "windows_chrome": "NOT_TESTED",
+  "gpu_training": "NOT_RUN"
+}

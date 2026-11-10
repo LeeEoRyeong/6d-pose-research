@@ -1,0 +1,18 @@
+frame,condition,points,raw_inliers,final_inliers,final_ratio,reproj_median_px,reason
+32,scale_1.40,843,59,62,0.07354685646500593,12.220319747924805,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+66,baseline,203,5,0,0.0,26.498132705688477,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+66,scale_1.20,206,6,1,0.0048543689320388345,22.680131912231445,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+66,scale_1.40,494,11,0,0.0,99.27322387695312,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+78,scale_1.20,876,162,176,0.2009132420091324,4.091346740722656,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+78,scale_1.40,610,26,26,0.04262295081967213,12.609820365905762,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+92,scale_1.20,811,114,117,0.1442663378545006,6.403563976287842,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+92,scale_1.40,630,32,36,0.05714285714285714,13.237333297729492,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+92,y_-0.10,191,8,9,0.04712041884816754,10.164769172668457,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+94,scale_1.20,771,113,127,0.16472114137483787,4.7853007316589355,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+94,scale_1.40,654,21,5,0.00764525993883792,27.761798858642578,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+94,y_-0.10,238,19,19,0.07983193277310924,7.621654510498047,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+94,y_-0.05,977,237,237,0.24257932446264074,3.365494966506958,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+96,scale_1.20,754,137,152,0.20159151193633953,4.154759883880615,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+96,scale_1.40,659,18,21,0.03186646433990895,30.30261993408203,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+96,y_-0.10,127,6,0,0.0,38.46271514892578,returned but poor fixed-threshold reprojection consistency; not GT accuracy
+96,y_-0.05,973,256,269,0.27646454265159304,3.5628929138183594,returned but poor fixed-threshold reprojection consistency; not GT accuracy

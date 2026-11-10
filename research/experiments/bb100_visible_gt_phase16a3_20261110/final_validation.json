@@ -1,0 +1,10 @@
+{
+  "source_hashes_checked": 307,
+  "source_changed": [],
+  "live_frames": 10,
+  "human_reviewed": 0,
+  "accepted": 0,
+  "gpu_training": "NOT_RUN",
+  "browser_firefox": "PASS pointer and zoom, undo/redo, ignore saved in isolated test",
+  "windows_chrome": "NOT_TESTED"
+}

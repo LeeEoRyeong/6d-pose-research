@@ -1,0 +1,9 @@
+﻿frame,condition,roi_xyxy,point_positive_xy,point_negative_xy,mask_pixels,SAM_overlap_removed_pixels,CADSAM_overlap_removed_pixels,mask_diff_vs_prior_full_pixels,baseline_matches_previous,logit_min,logit_max,seconds,status,roi_validity
+75,A_full_auto,"[0, 0, 1280, 720]",,,4440,0,0,0,True,-43.124977111816406,10.80764389038086,0.388,PSEUDO_NOT_GT,FULL_FRAME
+75,B_crop_auto,"[220, 0, 700, 430]",,,9159,494,434,13515,,-27.707975387573242,11.677515029907227,0.04,PSEUDO_NOT_GT,CAD and prompt inside; physical gripper extent needs human confirmation
+75,C_full_points,"[0, 0, 1280, 720]","[465, 295]","[505, 330]",12774,198,164,8828,,-25.27083396911621,7.337490081787109,0.043,PSEUDO_NOT_GT,FULL_FRAME
+75,D_crop_points,"[220, 0, 700, 430]","[465, 295]","[505, 330]",8907,207,151,13343,,-22.244617462158203,9.927872657775879,0.04,PSEUDO_NOT_GT,CAD and prompt inside; physical gripper extent needs human confirmation
+235,A_full_auto,"[0, 0, 1280, 720]",,,309,0,0,0,True,-71.77490234375,32.17361068725586,0.042,PSEUDO_NOT_GT,FULL_FRAME
+235,B_crop_auto,"[390, 0, 890, 540]",,,292,0,0,21,,-53.13689422607422,22.260150909423828,0.036,PSEUDO_NOT_GT,CAD and prompt inside; physical gripper extent needs human confirmation
+235,C_full_points,"[0, 0, 1280, 720]","[640, 385]","[690, 425]",286,0,0,23,,-71.18331909179688,28.109722137451172,0.043,PSEUDO_NOT_GT,FULL_FRAME
+235,D_crop_points,"[390, 0, 890, 540]","[640, 385]","[690, 425]",15152,670,655,14925,,-18.12672233581543,6.022212028503418,0.036,PSEUDO_NOT_GT,CAD and prompt inside; physical gripper extent needs human confirmation

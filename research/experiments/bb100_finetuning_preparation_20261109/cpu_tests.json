@@ -1,0 +1,14 @@
+{
+  "review_and_frame_bijection": "PASS",
+  "100_image_and_pose_checks": "PASS",
+  "100_rotations_and_K": "PASS",
+  "pose_json_matches_npy": "PASS",
+  "pbr_split_disjoint_and_visible_masks_100": "PASS",
+  "inspection_dataset_4_samples": "PASS",
+  "training_guard": "PASS",
+  "tentative_split_exact_duplicate_check": "PASS",
+  "physical_independence": "NOT_VERIFIED",
+  "training_dataloader": "NOT_IMPLEMENTED",
+  "real_visible_mask": "NOT_AVAILABLE",
+  "checkpoint_strict_load": "see checkpoint_check.json"
+}

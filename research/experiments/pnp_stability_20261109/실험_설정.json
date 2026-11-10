@@ -1,0 +1,53 @@
+{
+  "frames_baseline": 27,
+  "abnormal_frames": [
+    32,
+    66,
+    68,
+    78,
+    92,
+    94,
+    96
+  ],
+  "changed_roi_conditions_per_abnormal": 11,
+  "cached_inputs": 104,
+  "seed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "reprojection_px": [
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    5.0
+  ],
+  "iterations": [
+    150,
+    500,
+    1000
+  ],
+  "solver": "OpenCV SOLVEPNP_EPNP solvePnPRansac; original op2",
+  "workers": 4,
+  "uses_ground_truth": false,
+  "training": false,
+  "input_hashes": "full/cache_check.json"
+}

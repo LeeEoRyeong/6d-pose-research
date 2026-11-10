@@ -1,0 +1,29 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "seed": "not applicable: only two preexisting connected components, no random split",
+  "candidate_train": 64,
+  "candidate_val": 36,
+  "overlaps": {
+    "pose_group": 0,
+    "connected_group": 0,
+    "placement_id_candidate": 0
+  },
+  "exact_image_hash_cross_split": 0,
+  "exact_pose_revisits_across_contiguous_runs": {
+    "31": [
+      "placement_001",
+      "placement_007"
+    ],
+    "43": [
+      "placement_003",
+      "placement_005"
+    ],
+    "44": [
+      "placement_004",
+      "placement_006"
+    ]
+  },
+  "physical_independence": "NOT VERIFIED",
+  "70_30_80_20": "not achievable from two conservative components without splitting one",
+  "group_kfold": "with 2 conservative groups only 2 folds; physical independence unverified"
+}

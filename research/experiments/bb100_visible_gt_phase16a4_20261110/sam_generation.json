@@ -1,0 +1,2443 @@
+{
+  "frames": [
+    {
+      "frame": 31,
+      "pose_group": "31",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/FEEDING/000031.jpg",
+      "image_sha256": "6fa8b2d766e4bd4c31d3962c7ff9f9f8aa48d223e2dcc085205e440d1a26013a",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000031.npy",
+      "pose_sha256": "9579f5e1222246bc09cce71ac5406adccbe47ee4750f3c25044bab3df6809957",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        495,
+        306
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94921875,
+        0.96875
+      ],
+      "cad_sha256": "15e1c7ee436ecfc5f1acb0d23bbe760d4b14d034f6ff524b4671a256081c7cd1",
+      "sam_area": 17860,
+      "cad_area": 15488,
+      "sam_cad_intersection": 15403,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 32,
+      "pose_group": "32",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000032.jpg",
+      "image_sha256": "3834e89f0d12e548ccd97f36bb9f73d0208513b33ff02cb887ecd354cf006a7d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000032.npy",
+      "pose_sha256": "6ce87443f974d83efac8e51214eacf938e63e8ef210201b9629d9b1c8a838a86",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        498,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9453125,
+        0.96875
+      ],
+      "cad_sha256": "d170ca21dfea52c0d67695043058cbb955729b879a485a6fe1baa6ba66311fd9",
+      "sam_area": 17834,
+      "cad_area": 15562,
+      "sam_cad_intersection": 15521,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 34,
+      "pose_group": "32",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000034.jpg",
+      "image_sha256": "3834e89f0d12e548ccd97f36bb9f73d0208513b33ff02cb887ecd354cf006a7d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000034.npy",
+      "pose_sha256": "6ce87443f974d83efac8e51214eacf938e63e8ef210201b9629d9b1c8a838a86",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        498,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9453125,
+        0.96875
+      ],
+      "cad_sha256": "d170ca21dfea52c0d67695043058cbb955729b879a485a6fe1baa6ba66311fd9",
+      "sam_area": 17834,
+      "cad_area": 15562,
+      "sam_cad_intersection": 15521,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 36,
+      "pose_group": "32",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000036.jpg",
+      "image_sha256": "8c0390a0fb6e61c3b7355b034a28e94191db38fa0097f59c0b87858120e4c127",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000036.npy",
+      "pose_sha256": "6ce87443f974d83efac8e51214eacf938e63e8ef210201b9629d9b1c8a838a86",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        498,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94140625,
+        0.96875
+      ],
+      "cad_sha256": "d170ca21dfea52c0d67695043058cbb955729b879a485a6fe1baa6ba66311fd9",
+      "sam_area": 17826,
+      "cad_area": 15562,
+      "sam_cad_intersection": 15525,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 38,
+      "pose_group": "32",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000038.jpg",
+      "image_sha256": "46562af286dd56c1cda88e82d085a233bf2531788e6afbacd24eccc1583ecb6f",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000038.npy",
+      "pose_sha256": "6ce87443f974d83efac8e51214eacf938e63e8ef210201b9629d9b1c8a838a86",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        498,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94921875,
+        0.97265625
+      ],
+      "cad_sha256": "d170ca21dfea52c0d67695043058cbb955729b879a485a6fe1baa6ba66311fd9",
+      "sam_area": 17824,
+      "cad_area": 15562,
+      "sam_cad_intersection": 15522,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 40,
+      "pose_group": "32",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000040.jpg",
+      "image_sha256": "7cd8f9ad7e21bd11db96fd4fa6a3300f7d9891b3033796c13451e0c96cc33e12",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000040.npy",
+      "pose_sha256": "6ce87443f974d83efac8e51214eacf938e63e8ef210201b9629d9b1c8a838a86",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        498,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94921875,
+        0.97265625
+      ],
+      "cad_sha256": "d170ca21dfea52c0d67695043058cbb955729b879a485a6fe1baa6ba66311fd9",
+      "sam_area": 17825,
+      "cad_area": 15562,
+      "sam_cad_intersection": 15528,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 42,
+      "pose_group": "32",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000042.jpg",
+      "image_sha256": "c79b247c2fcc31b9bc88048f15d569ba83ca9f9e95f46224d911270a0ceabb80",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000042.npy",
+      "pose_sha256": "6ce87443f974d83efac8e51214eacf938e63e8ef210201b9629d9b1c8a838a86",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        498,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94140625,
+        0.97265625
+      ],
+      "cad_sha256": "d170ca21dfea52c0d67695043058cbb955729b879a485a6fe1baa6ba66311fd9",
+      "sam_area": 17780,
+      "cad_area": 15562,
+      "sam_cad_intersection": 15519,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 43,
+      "pose_group": "43",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000043.jpg",
+      "image_sha256": "2093600e849dcae42ae8d9f0d867f295511cba7d87f8d7dcdde4669c5f0d4fa2",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000043.npy",
+      "pose_sha256": "e58958e8b14a63cdb36dc0eadb110806245dbbb9cd733af027d83e2427b3ef1e",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "32a3e06130cfeb74a47b0e99e639e7b60bd860c2b41650fc8d43bae5296bb0d3",
+      "sam_area": 17870,
+      "cad_area": 15688,
+      "sam_cad_intersection": 15683,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 44,
+      "pose_group": "44",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000044.jpg",
+      "image_sha256": "c24410971cadcf230540f7d3ca94dfcccd9518b594193d5e44938bc5c09477a7",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000044.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94140625,
+        0.96875
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17730,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15507,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 45,
+      "pose_group": "44",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000045.jpg",
+      "image_sha256": "2779c89fe5c562c8e16d079086aa492cdace44e2d67db9f226a641d0d468dd5c",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000045.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94140625,
+        0.97265625
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17825,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15534,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 46,
+      "pose_group": "44",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000046.jpg",
+      "image_sha256": "df9c6a11dd7823a707f490723169f00e1dfd1ce7408c3fa80f33bce371186cd1",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000046.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94140625,
+        0.97265625
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17834,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15537,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 54,
+      "pose_group": "44",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000054.jpg",
+      "image_sha256": "d6a14c18b2ee61c7a4be6e6fa58e28430f04b2bea03767a60038103d055ade11",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000054.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94921875,
+        0.97265625
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17879,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15547,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 57,
+      "pose_group": "44",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000057.jpg",
+      "image_sha256": "18e6f618eb85ef8eedad9c8f96a550cb4a6f581075789365f39069a5c563eca1",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000057.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.95703125,
+        0.97265625
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17874,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15548,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 60,
+      "pose_group": "43",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000060.jpg",
+      "image_sha256": "8a7daa183444d9c4b50806664ea896227eaba6383416435d3d9902d557b12ad6",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000060.npy",
+      "pose_sha256": "e58958e8b14a63cdb36dc0eadb110806245dbbb9cd733af027d83e2427b3ef1e",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.94921875,
+        0.97265625
+      ],
+      "cad_sha256": "32a3e06130cfeb74a47b0e99e639e7b60bd860c2b41650fc8d43bae5296bb0d3",
+      "sam_area": 17931,
+      "cad_area": 15688,
+      "sam_cad_intersection": 15681,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 63,
+      "pose_group": "44",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000063.jpg",
+      "image_sha256": "70530f2951fa6a298be6133adf192cd3eeb93e49a05bdb93f1df947d0dc54656",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000063.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.953125,
+        0.97265625
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17836,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15545,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 67,
+      "pose_group": "44",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000067.jpg",
+      "image_sha256": "ba99a1d0ebcdcc20136618657730d4d614927cee76089734129eec68cd4c479c",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000067.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.95703125,
+        0.95703125,
+        0.97265625
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 17587,
+      "cad_area": 15566,
+      "sam_cad_intersection": 15324,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 71,
+      "pose_group": "44",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000071.jpg",
+      "image_sha256": "f5e2c41439c87bfcf23c067376241e93f391015d93c9cc2c61d8f0586761dae3",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000071.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.875,
+        0.9453125,
+        0.96875
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 15468,
+      "cad_area": 15566,
+      "sam_cad_intersection": 13381,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 74,
+      "pose_group": "44",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000074.jpg",
+      "image_sha256": "d1fcb8b7e6d4375e4aec7e5f84730b8fbbf3c9e77f6ae6483e0a5f2848854e0a",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000074.npy",
+      "pose_sha256": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        496,
+        307
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7421875,
+        0.9296875,
+        0.95703125
+      ],
+      "cad_sha256": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+      "sam_area": 13761,
+      "cad_area": 15566,
+      "sam_cad_intersection": 11930,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 75,
+      "pose_group": "31",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000075.jpg",
+      "image_sha256": "a1ba394b27f8927b2767d81bd2e1639a0207e761ebd440568cf6a8307237617a",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000075.npy",
+      "pose_sha256": "9579f5e1222246bc09cce71ac5406adccbe47ee4750f3c25044bab3df6809957",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "15e1c7ee436ecfc5f1acb0d23bbe760d4b14d034f6ff524b4671a256081c7cd1",
+      "sam_area": 12826,
+      "cad_area": 15488,
+      "sam_cad_intersection": 10959,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 77,
+      "pose_group": "77",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000077.jpg",
+      "image_sha256": "f4a1e59c148af8d2578bbe68bfa3efdba2f3c1e8fadec49407af21d9390f0249",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000077.npy",
+      "pose_sha256": "be1dc28e9ce9e717cc8e2045dcb3eed875753e8d2113c229f208cd0c5cb7ae76",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        497,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7421875,
+        0.8984375,
+        0.94140625
+      ],
+      "cad_sha256": "6e8be42b033734467df79acb8e0f4a78104e6cee94b87c0efaab4bd00adc6de2",
+      "sam_area": 12877,
+      "cad_area": 16009,
+      "sam_cad_intersection": 11103,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 79,
+      "pose_group": "77",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000079.jpg",
+      "image_sha256": "5f07be176eb82700c584029de5d8e77284a55f5ce266f4cdddf9bd7b0729413c",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000079.npy",
+      "pose_sha256": "be1dc28e9ce9e717cc8e2045dcb3eed875753e8d2113c229f208cd0c5cb7ae76",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        497,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.75,
+        0.8984375,
+        0.94140625
+      ],
+      "cad_sha256": "6e8be42b033734467df79acb8e0f4a78104e6cee94b87c0efaab4bd00adc6de2",
+      "sam_area": 12909,
+      "cad_area": 16009,
+      "sam_cad_intersection": 11120,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 81,
+      "pose_group": "77",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000081.jpg",
+      "image_sha256": "6e032af81e82020ea7a1470ab4aeb754833c483ed142e059916493b065cb90dd",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000081.npy",
+      "pose_sha256": "be1dc28e9ce9e717cc8e2045dcb3eed875753e8d2113c229f208cd0c5cb7ae76",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        497,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.72265625,
+        0.90234375,
+        0.94140625
+      ],
+      "cad_sha256": "6e8be42b033734467df79acb8e0f4a78104e6cee94b87c0efaab4bd00adc6de2",
+      "sam_area": 12840,
+      "cad_area": 16009,
+      "sam_cad_intersection": 11063,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 83,
+      "pose_group": "77",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000083.jpg",
+      "image_sha256": "b5d1f78a3a550aff0bf17ae8c97c030cd0844b02d7fb773c92b6e66e5b4762f0",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000083.npy",
+      "pose_sha256": "be1dc28e9ce9e717cc8e2045dcb3eed875753e8d2113c229f208cd0c5cb7ae76",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        497,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.71484375,
+        0.90625,
+        0.9453125
+      ],
+      "cad_sha256": "6e8be42b033734467df79acb8e0f4a78104e6cee94b87c0efaab4bd00adc6de2",
+      "sam_area": 12829,
+      "cad_area": 16009,
+      "sam_cad_intersection": 11070,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 85,
+      "pose_group": "77",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000085.jpg",
+      "image_sha256": "c37f27fd3541e5d6bbf66043691a5f30c663359268ff82b105e7b114624c61f4",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000085.npy",
+      "pose_sha256": "be1dc28e9ce9e717cc8e2045dcb3eed875753e8d2113c229f208cd0c5cb7ae76",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        497,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7109375,
+        0.91015625,
+        0.9453125
+      ],
+      "cad_sha256": "6e8be42b033734467df79acb8e0f4a78104e6cee94b87c0efaab4bd00adc6de2",
+      "sam_area": 12814,
+      "cad_area": 16009,
+      "sam_cad_intersection": 11055,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 87,
+      "pose_group": "87",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000087.jpg",
+      "image_sha256": "f4c5e3ccb9fcd86e327551ed6fb7e934429eebc5958588b1d808b96ff00e9923",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000087.npy",
+      "pose_sha256": "acb14ce7b6b9b7c40a490a540b81691fe41ffe4cb89dec4483b09eb46a576bd4",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        492,
+        296
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.72265625,
+        0.90234375,
+        0.94140625
+      ],
+      "cad_sha256": "331882e0cc5fd81e4ff005044b0145d15a5ccf2a599566438673459d0aea36ac",
+      "sam_area": 13683,
+      "cad_area": 16779,
+      "sam_cad_intersection": 11677,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 89,
+      "pose_group": "89",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000089.jpg",
+      "image_sha256": "6075663c9998adbf1620bdfe28ce5f65117c357202ec5d9b519f7173c8d00bb9",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000089.npy",
+      "pose_sha256": "d428a8b70c2bdd636b29926c970c8a7d491ce72e7f7b9342e1ad59987a9942e1",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        508,
+        284
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.72265625,
+        0.92578125,
+        0.953125
+      ],
+      "cad_sha256": "91c80a73e824a3a38f87ba2a7e3068dd6c8146167ce906ab51856b34e5afbbe1",
+      "sam_area": 13446,
+      "cad_area": 17058,
+      "sam_cad_intersection": 11759,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 90,
+      "pose_group": "90",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000090.jpg",
+      "image_sha256": "7b0c622a1eda9387a0f106030d4f60f49324814a19f0d3d326dc59da617644ca",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000090.npy",
+      "pose_sha256": "34e5d855c083f92de5b289d17282055553d4def6dd1ff5d2e0145306219eb6cd",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        519,
+        272
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8125,
+        0.90234375,
+        0.93359375
+      ],
+      "cad_sha256": "82853002f51a29bd49f239b4dc541ac92b5bceeca7391c02eb2fed7dcc618562",
+      "sam_area": 13433,
+      "cad_area": 16460,
+      "sam_cad_intersection": 11323,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 93,
+      "pose_group": "93",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000093.jpg",
+      "image_sha256": "84cc83571e11f14966ba33a89c777fa1b47c928ac6f67dc0580df7d3481b8cce",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000093.npy",
+      "pose_sha256": "e57118c683e12abb3d7c96ca4341e501d206781419746d36437d98a2eccdaa02",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        546,
+        251
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8046875,
+        0.91796875,
+        0.9453125
+      ],
+      "cad_sha256": "6649c896abfa3e9c63e9021053e98ca8356ded461fd993d7777a3f2c832e3da5",
+      "sam_area": 13455,
+      "cad_area": 17026,
+      "sam_cad_intersection": 11958,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 95,
+      "pose_group": "95",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000095.jpg",
+      "image_sha256": "870c55fcc88c38309815179295fc1f3f4a30a3c4b712a5c1a04c4a8e068afd37",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000095.npy",
+      "pose_sha256": "0df936c731441540ec51adc7b7e0d0bc0f610119d9a2b44359d771377b206592",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        564,
+        235
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7734375,
+        0.921875,
+        0.94921875
+      ],
+      "cad_sha256": "bbc6f05435cc09f8463c906f2504e8de6880ee40816912815c7d8559cb289905",
+      "sam_area": 13362,
+      "cad_area": 17270,
+      "sam_cad_intersection": 12420,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 97,
+      "pose_group": "97",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000097.jpg",
+      "image_sha256": "c1023b02ab503355856f0396af9795c7cd52731f96ab88dba147ec9d7a87f851",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000097.npy",
+      "pose_sha256": "8c789a622e21e33e9c06a514a571959fe9fd7dac2e554d17d372ca3c0b9069d4",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        580,
+        219
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8125,
+        0.91015625,
+        0.9375
+      ],
+      "cad_sha256": "4e48a8b4f7261ce5f5eee7e46b980c0ff5940c6963e4fe3edaf99e5f4d119638",
+      "sam_area": 13270,
+      "cad_area": 16620,
+      "sam_cad_intersection": 12117,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 99,
+      "pose_group": "99",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000099.jpg",
+      "image_sha256": "4f035c138235a60ef5dc70c3b14a5cc9c9ac4a09bdecd82a0c238df319f240d9",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000099.npy",
+      "pose_sha256": "6cd99136f89ceb5899de87da44cbeb1b5deb3329abb7728760eae56af24820d2",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "b0f043b5a69aef347d772c9ae565a883c506935ebaaaa4e9dfc38184e3137b20",
+      "sam_area": 13461,
+      "cad_area": 15531,
+      "sam_cad_intersection": 11504,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 101,
+      "pose_group": "101",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000101.jpg",
+      "image_sha256": "f13850543a4cb23afee31189a6c003672d6de3f64f6fc19e81ee708d41e200ea",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000101.npy",
+      "pose_sha256": "5c584599c1226efb9286dd4c717d84d4a1491547d3fb1b2298b3bd6fa8bc726b",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        585,
+        189
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8203125,
+        0.921875,
+        0.9453125
+      ],
+      "cad_sha256": "754012d4a8bbc173b350347adc435c9e8061f1e9d1119ba5bb659655f8f5e67e",
+      "sam_area": 13396,
+      "cad_area": 16088,
+      "sam_cad_intersection": 12090,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 103,
+      "pose_group": "103",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000103.jpg",
+      "image_sha256": "2584216dedf27d7340fe109f17c7a99f4b027cc135d08da9ea54bb8ed0de8c65",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000103.npy",
+      "pose_sha256": "391ce19b49ad7c0fcee40895d143f885aaea778b00a76ea33c560e40ee05f4b3",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        583,
+        172
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.76953125,
+        0.9140625,
+        0.94140625
+      ],
+      "cad_sha256": "0140035598ea4312eba3cd78c5970b86d26c8c5c0780e3852e8ac2c4f21c8e75",
+      "sam_area": 13320,
+      "cad_area": 15136,
+      "sam_cad_intersection": 11425,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 105,
+      "pose_group": "105",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000105.jpg",
+      "image_sha256": "5592eadbf6c215827d6d295a37b32a5a59fb7ab3d180e5fab8ac264f7e027583",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000105.npy",
+      "pose_sha256": "987bde84f77396241613ca13f6cc6e09bb3f1cf4a9e6005432dd88a5bba72a63",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        585,
+        158
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.73828125,
+        0.92578125,
+        0.94921875
+      ],
+      "cad_sha256": "71623a3310af31bb788423e816219074400baac497fcf234ea4f86ee90094b88",
+      "sam_area": 13430,
+      "cad_area": 14985,
+      "sam_cad_intersection": 11446,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 107,
+      "pose_group": "107",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000107.jpg",
+      "image_sha256": "2c0e3f52d59ac5068069443946105c1328f68e826967c59455304d98fff0205d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000107.npy",
+      "pose_sha256": "d1f4c03ec5138bfedb8066837bff0d9a18f712c9382948ce2d2a648a85040f3f",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        584,
+        144
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.75,
+        0.91796875,
+        0.9453125
+      ],
+      "cad_sha256": "109e721c56076facffda7367065b2a6e54c2c2aabf2639b0b5f50547a43076ab",
+      "sam_area": 13331,
+      "cad_area": 14505,
+      "sam_cad_intersection": 11252,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 109,
+      "pose_group": "109",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000109.jpg",
+      "image_sha256": "86c3e8c37c01545c39afbe777e931fefe3ef6f67e4334bbabb4ad30bdb2a2d9d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000109.npy",
+      "pose_sha256": "1f1ca360e1d8bbba2739e203dec57441c602fd6fd59b7394b745f947fbbed73e",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        585,
+        128
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.71484375,
+        0.90234375,
+        0.91796875
+      ],
+      "cad_sha256": "e7679d3d1866292fea9e1bb4a4d7fedbaa690cc9635c3724c9b44f317b27c25a",
+      "sam_area": 13165,
+      "cad_area": 14713,
+      "sam_cad_intersection": 11347,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 221,
+      "pose_group": "221",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000221.jpg",
+      "image_sha256": "5581cabc44eb76aafd4a4d53fd3dcc64b751b4cfc94863ca5f65af733106c1e5",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000221.npy",
+      "pose_sha256": "92004d763637b2a308486d82b09ee7ddff9595fdb62936e304b2af1e8fcbab99",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "8f18c499ab39e26d6815ee7a678bd593a96719496c38e719750615a5804a8a49",
+      "sam_area": 17075,
+      "cad_area": 22815,
+      "sam_cad_intersection": 16116,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 222,
+      "pose_group": "222",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000222.jpg",
+      "image_sha256": "070cc8e44efbc209bb1528251584f52e6c69dcfcc3b3f50fc03f719a2192e398",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000222.npy",
+      "pose_sha256": "ebbddf11a156565790f1a8fed9b2e185bfcbb5ffafea147374312474d42b6deb",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        668,
+        402
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.828125,
+        0.87890625,
+        0.87109375
+      ],
+      "cad_sha256": "f2d547ca100af63fee830f11c3092e50e0608366cc39c944e78d10e71030f6a8",
+      "sam_area": 15990,
+      "cad_area": 20975,
+      "sam_cad_intersection": 14931,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 224,
+      "pose_group": "224",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000224.jpg",
+      "image_sha256": "01491cea956dc1613bc779cf6e20086124e88412bd3b9982e9886f7e60a05b4f",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000224.npy",
+      "pose_sha256": "543047a8ad446df300c7ba4e6945fff6cfcda268fcfbf6b2e2a11bb381c318a5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        405
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7265625,
+        0.89453125,
+        0.90625
+      ],
+      "cad_sha256": "88c331736c46d81871825898247910dc036e45ce72784e86c37f2f4aee7986bf",
+      "sam_area": 13125,
+      "cad_area": 18091,
+      "sam_cad_intersection": 12085,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 226,
+      "pose_group": "224",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000226.jpg",
+      "image_sha256": "a88d5ed1e0f3f16a0f60fab6a5330e8f1038f3263080339442e8dc11736251d1",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000226.npy",
+      "pose_sha256": "543047a8ad446df300c7ba4e6945fff6cfcda268fcfbf6b2e2a11bb381c318a5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        405
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.6953125,
+        0.91015625,
+        0.9296875
+      ],
+      "cad_sha256": "88c331736c46d81871825898247910dc036e45ce72784e86c37f2f4aee7986bf",
+      "sam_area": 13123,
+      "cad_area": 18091,
+      "sam_cad_intersection": 12062,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 228,
+      "pose_group": "224",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000228.jpg",
+      "image_sha256": "e07d734e3a3322f26f15578357ec91ab5bf666d2593941b4302af942d2cffd64",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000228.npy",
+      "pose_sha256": "543047a8ad446df300c7ba4e6945fff6cfcda268fcfbf6b2e2a11bb381c318a5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        405
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.71484375,
+        0.90234375,
+        0.91796875
+      ],
+      "cad_sha256": "88c331736c46d81871825898247910dc036e45ce72784e86c37f2f4aee7986bf",
+      "sam_area": 13146,
+      "cad_area": 18091,
+      "sam_cad_intersection": 12089,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 230,
+      "pose_group": "224",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000230.jpg",
+      "image_sha256": "a523fec1e0956872f7646edf5133ee6b88abb315979b27496bddd695167f2551",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000230.npy",
+      "pose_sha256": "543047a8ad446df300c7ba4e6945fff6cfcda268fcfbf6b2e2a11bb381c318a5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        405
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7109375,
+        0.90625,
+        0.921875
+      ],
+      "cad_sha256": "88c331736c46d81871825898247910dc036e45ce72784e86c37f2f4aee7986bf",
+      "sam_area": 13134,
+      "cad_area": 18091,
+      "sam_cad_intersection": 12072,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 232,
+      "pose_group": "224",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000232.jpg",
+      "image_sha256": "495daeb146d73d5702700c2001f61396f0fab94eb21431b384930f6ad7a2c2f6",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000232.npy",
+      "pose_sha256": "543047a8ad446df300c7ba4e6945fff6cfcda268fcfbf6b2e2a11bb381c318a5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        405
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.69921875,
+        0.91015625,
+        0.9296875
+      ],
+      "cad_sha256": "88c331736c46d81871825898247910dc036e45ce72784e86c37f2f4aee7986bf",
+      "sam_area": 13094,
+      "cad_area": 18091,
+      "sam_cad_intersection": 12064,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 234,
+      "pose_group": "224",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000234.jpg",
+      "image_sha256": "9b38808b5ba9ff5db7ddbaba5959541911e280b35201886e3cac47874e25703c",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000234.npy",
+      "pose_sha256": "543047a8ad446df300c7ba4e6945fff6cfcda268fcfbf6b2e2a11bb381c318a5",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        405
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.78125,
+        0.89453125,
+        0.91015625
+      ],
+      "cad_sha256": "88c331736c46d81871825898247910dc036e45ce72784e86c37f2f4aee7986bf",
+      "sam_area": 13898,
+      "cad_area": 18091,
+      "sam_cad_intersection": 12736,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 235,
+      "pose_group": "235",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000235.jpg",
+      "image_sha256": "43e49f460d957444c75f3eda2dda4b2c1e45423e348c56ed99dcec870bc389ce",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000235.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 14110,
+      "cad_area": 17801,
+      "sam_cad_intersection": 12641,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 237,
+      "pose_group": "235",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000237.jpg",
+      "image_sha256": "ef70528d07a1cb43b5e1a3f087d650c595946ee37a4e70fc43e7fe4bc03bd52c",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000237.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.89453125,
+        0.9375,
+        0.9609375
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 15997,
+      "cad_area": 17801,
+      "sam_cad_intersection": 14498,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 239,
+      "pose_group": "235",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000239.jpg",
+      "image_sha256": "43e27b7433dcfa940ba313700ed009f3a79229b60e2269fa4a348d62246269bd",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000239.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9296875,
+        0.9375,
+        0.9609375
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 17164,
+      "cad_area": 17801,
+      "sam_cad_intersection": 15620,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 241,
+      "pose_group": "235",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000241.jpg",
+      "image_sha256": "1af1ab285df43140b9e2f46a811d663cadaee3009d5392f41241bc9abd022020",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000241.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.94140625,
+        0.9375,
+        0.96484375
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 17894,
+      "cad_area": 17801,
+      "sam_cad_intersection": 16275,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 243,
+      "pose_group": "235",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000243.jpg",
+      "image_sha256": "dfdf91a4ef7b70ae24899c4c60cff73f6aac1658b483e904e359d2c156f538eb",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000243.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9375,
+        0.97265625
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18610,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17020,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 245,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000245.jpg",
+      "image_sha256": "13ba6a885f7415e1b57f86cdc32c8491a5010d2d465be6a0b9da1fcf28746965",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000245.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.9375,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18656,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17131,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 247,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000247.jpg",
+      "image_sha256": "a008c81b3ea75270dc58d9215b80d3e87a4a341482b1c5e556b3e7dc44b131ef",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000247.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18580,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17098,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 249,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000249.jpg",
+      "image_sha256": "0aa41e32d4d7897c94ca169994afd925cbff4ba06ae5b0ebc51b728e70299d2e",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000249.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.93359375,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18585,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17099,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 251,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000251.jpg",
+      "image_sha256": "901185e856ae4f8d1d4fe23fe3230205f266ffea6025af791a60a46bec21eca1",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000251.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9296875,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18599,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17105,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 253,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000253.jpg",
+      "image_sha256": "c8f886cb455955bf4231bf9b7449bd38d10df4105e9ad3976f6a035b76827e2f",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000253.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.93359375,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18506,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17032,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 255,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000255.jpg",
+      "image_sha256": "36965ca5434cf5180296b2cb75750e911e1b78ad96a1bb23731bbdd0c84738ff",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000255.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.9453125,
+        0.97265625
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18561,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17047,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 257,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000257.jpg",
+      "image_sha256": "e776d7ee0559c31cce739db224ad845dacad5cbf403e2fc3be986efc404ef186",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000257.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.9453125,
+        0.97265625
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18539,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17029,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 259,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000259.jpg",
+      "image_sha256": "bbf381c5fe3f72134c16e237f8c6eabe181b1b7e4194450fe45e97878ce4b945",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000259.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.9453125,
+        0.97265625
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18532,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17025,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 261,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000261.jpg",
+      "image_sha256": "a85a3bade6fddc8fd32229bb64207f4eeb3bd0febcef47aabea4f10c0d8789de",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000261.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.94140625,
+        0.97265625
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18566,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17038,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 263,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000263.jpg",
+      "image_sha256": "a4fd5904824823c4025a9ab54443d4187d64df71fec7c9b0c6d5155116c9e44a",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000263.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.9375,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18610,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17163,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 272,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000272.jpg",
+      "image_sha256": "569d413cb8517348672b14979c0a185fc083df5255b663a48d68d58a6c8c33e0",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000272.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.92578125,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18659,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17081,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 278,
+      "pose_group": "235",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000278.jpg",
+      "image_sha256": "402f2cd72ddbf273cf442791e67c91251f4c4f419804b8196885583983defdcd",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000278.npy",
+      "pose_sha256": "9afad5cd6092c95e46da8f4a1d9331fc0dfac2ba59da851bdd687054ac1a7ac9",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        673,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.92578125,
+        0.96875
+      ],
+      "cad_sha256": "11cc0939b66765065e3ae22840a97686205e5af59bdc95bdc0a3eca567a25c34",
+      "sam_area": 18575,
+      "cad_area": 17801,
+      "sam_cad_intersection": 17049,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 328,
+      "pose_group": "328",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000328.jpg",
+      "image_sha256": "b3d9a4017e1fe2ea207697f805f0eb5f2d2837b956aa15b29d0736bb604f0633",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000328.npy",
+      "pose_sha256": "6c777a5b90207d5bf7e4b35deb82633e76e09ea933a4653056d7e9a2be24ffea",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        672,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.73046875,
+        0.90625,
+        0.92578125
+      ],
+      "cad_sha256": "03446371b7e7a7535a34d185ac7d38f3a54a1e011d20cc5f7fff51f761519183",
+      "sam_area": 13502,
+      "cad_area": 17410,
+      "sam_cad_intersection": 11774,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 330,
+      "pose_group": "328",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000330.jpg",
+      "image_sha256": "27556b3b5e3c2293d3635f9d4e7470ee56593f0245f3eb22b5df71cb123b44fc",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000330.npy",
+      "pose_sha256": "6c777a5b90207d5bf7e4b35deb82633e76e09ea933a4653056d7e9a2be24ffea",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        672,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.7265625,
+        0.8984375,
+        0.91796875
+      ],
+      "cad_sha256": "03446371b7e7a7535a34d185ac7d38f3a54a1e011d20cc5f7fff51f761519183",
+      "sam_area": 13059,
+      "cad_area": 17410,
+      "sam_cad_intersection": 11572,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 332,
+      "pose_group": "328",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000332.jpg",
+      "image_sha256": "265949e4486ef65bc68e8b11c0c86ba707ef3bc34a8310c235e77ae52475088d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000332.npy",
+      "pose_sha256": "6c777a5b90207d5bf7e4b35deb82633e76e09ea933a4653056d7e9a2be24ffea",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        672,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.71875,
+        0.90234375,
+        0.91796875
+      ],
+      "cad_sha256": "03446371b7e7a7535a34d185ac7d38f3a54a1e011d20cc5f7fff51f761519183",
+      "sam_area": 13141,
+      "cad_area": 17410,
+      "sam_cad_intersection": 11590,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 334,
+      "pose_group": "328",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000334.jpg",
+      "image_sha256": "cdce39a06039059dc9577a5e387d401154976c5015cc02b304fb1b6ca5234ec5",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000334.npy",
+      "pose_sha256": "6c777a5b90207d5bf7e4b35deb82633e76e09ea933a4653056d7e9a2be24ffea",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        672,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.72265625,
+        0.90234375,
+        0.91796875
+      ],
+      "cad_sha256": "03446371b7e7a7535a34d185ac7d38f3a54a1e011d20cc5f7fff51f761519183",
+      "sam_area": 13209,
+      "cad_area": 17410,
+      "sam_cad_intersection": 11625,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 336,
+      "pose_group": "328",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000336.jpg",
+      "image_sha256": "71e2f865b7483d8353e76b913edbedad56f7149e9d0aa5abc5771387768935c6",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000336.npy",
+      "pose_sha256": "6c777a5b90207d5bf7e4b35deb82633e76e09ea933a4653056d7e9a2be24ffea",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        672,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.72265625,
+        0.90234375,
+        0.91796875
+      ],
+      "cad_sha256": "03446371b7e7a7535a34d185ac7d38f3a54a1e011d20cc5f7fff51f761519183",
+      "sam_area": 13152,
+      "cad_area": 17410,
+      "sam_cad_intersection": 11632,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 338,
+      "pose_group": "328",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000338.jpg",
+      "image_sha256": "827eda3ae9593e9aa2743859209556675a166ff7c1d664d95f80ee8f889ef3b2",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000338.npy",
+      "pose_sha256": "6c777a5b90207d5bf7e4b35deb82633e76e09ea933a4653056d7e9a2be24ffea",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        672,
+        404
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.71484375,
+        0.90625,
+        0.92578125
+      ],
+      "cad_sha256": "03446371b7e7a7535a34d185ac7d38f3a54a1e011d20cc5f7fff51f761519183",
+      "sam_area": 13141,
+      "cad_area": 17410,
+      "sam_cad_intersection": 11638,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 340,
+      "pose_group": "340",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PICKING/000340.jpg",
+      "image_sha256": "6f32f9878e2f2324e703cac81ce7aef4f13a167899416ea4bb074fb14d8996af",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000340.npy",
+      "pose_sha256": "d5a6bb8452e57421383ba089ae84b77dc9c621187a7ebd53d2ba20065b3d1d7b",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "87b78032b087b03c39e4b02056c4cbdfbc80ff6171efe0051fa3731f3b7c0670",
+      "sam_area": 16923,
+      "cad_area": 22454,
+      "sam_cad_intersection": 16008,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 341,
+      "pose_group": "341",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000341.jpg",
+      "image_sha256": "ca648b0a12f69efa1a920696372298ccf060a6c7964d27a5362867045c8b9786",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000341.npy",
+      "pose_sha256": "6e896c1283806c3b4f0f46f5e503cbcaef82ec970826aa1f64110198d70b21d2",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        680,
+        388
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.83984375,
+        0.8671875,
+        0.87890625
+      ],
+      "cad_sha256": "fa14dd067091cb3d3dc51a54c3cf71b933faa61738dab146f33701e2ec9f455f",
+      "sam_area": 17165,
+      "cad_area": 22656,
+      "sam_cad_intersection": 16173,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 342,
+      "pose_group": "342",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000342.jpg",
+      "image_sha256": "109ac872950ebe184f09926514b09dd90eba287280992464de7eaec431267a8a",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000342.npy",
+      "pose_sha256": "ee1a0e68c1267e2c527c3e77541f34482c48031c675468d60bce3d9605af02d0",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        686,
+        384
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8046875,
+        0.91796875,
+        0.9296875
+      ],
+      "cad_sha256": "cace3bf52a020ada070facd0c1173eda20b08aebd138b3b29693046e56bd8121",
+      "sam_area": 17300,
+      "cad_area": 22790,
+      "sam_cad_intersection": 16594,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 344,
+      "pose_group": "344",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000344.jpg",
+      "image_sha256": "a8b7a2d79086f5962104d506c4d43171d85f8ac2a35e5f2c5ebcb04444b769a7",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000344.npy",
+      "pose_sha256": "c3bcf854ed14b0820143995200962b2f3ed0e7df76bfcca8e43884b2b9160c12",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        740,
+        375
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8203125,
+        0.90234375,
+        0.9140625
+      ],
+      "cad_sha256": "4dd27e6542a77bb47244c531b871c6c3e2cf54fe6e44b36f535278f7a7b7264d",
+      "sam_area": 17442,
+      "cad_area": 22872,
+      "sam_cad_intersection": 16642,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 346,
+      "pose_group": "346",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000346.jpg",
+      "image_sha256": "0ca174d52222ae51393d1c604898ca5abdcefabf99fda4812d4a5bceceeb14ab",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000346.npy",
+      "pose_sha256": "65729b71eb8963709708114be0dd47203218d524e665d027a0575503723b2609",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        757,
+        359
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.80078125,
+        0.90625,
+        0.9375
+      ],
+      "cad_sha256": "b1176a4a8d4c900fa39e694bd983b990f42f12dc1993a5c0da21f8e4788e6ff0",
+      "sam_area": 17609,
+      "cad_area": 22263,
+      "sam_cad_intersection": 16532,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 348,
+      "pose_group": "348",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000348.jpg",
+      "image_sha256": "e1d49487ad13679c4c06d5ec2c53a47bc7c8930017cb634854943e38b2df1508",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000348.npy",
+      "pose_sha256": "14cc8950c8af009bb958ed03b0651a9865d4df724521d43eb035353e7f078d4f",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        777,
+        342
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.80078125,
+        0.90234375,
+        0.94921875
+      ],
+      "cad_sha256": "861a4fdc6b43256af849e1cf3272b691eab8abf3478b93c75341101ac599944e",
+      "sam_area": 17745,
+      "cad_area": 22418,
+      "sam_cad_intersection": 16734,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 350,
+      "pose_group": "350",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000350.jpg",
+      "image_sha256": "39d6e07fc552941e915d5f0b5cfbd70a6b09b4d1f234f93e379cd6027dadd36f",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000350.npy",
+      "pose_sha256": "e0fba8e6beb30728521c9933b259adc1699a6edb481fd758f973498089839108",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        795,
+        324
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.85546875,
+        0.88671875,
+        0.9375
+      ],
+      "cad_sha256": "1d40dca4c6e39468555a25770b4b80d4d547ef0f36d0fc91c159b3290f74d195",
+      "sam_area": 17969,
+      "cad_area": 22472,
+      "sam_cad_intersection": 16710,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 352,
+      "pose_group": "352",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000352.jpg",
+      "image_sha256": "8f07ea82d7ef4a217d92b35a568a50a126f3863345facaa5221ffb395b17b45e",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000352.npy",
+      "pose_sha256": "bd83be489a26b4d64dcbf8255f448d948c471967f0e59939597dbebdbfb86a25",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        811,
+        308
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.87890625,
+        0.8984375,
+        0.95703125
+      ],
+      "cad_sha256": "038b877027863f86810c75dac596848b84a53aa0c59027338a555d9c2f759545",
+      "sam_area": 18161,
+      "cad_area": 21680,
+      "sam_cad_intersection": 16584,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 354,
+      "pose_group": "354",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000354.jpg",
+      "image_sha256": "c25fd31cd12b2181396c182fefb9ae610d5029c5a833d54ae635d49b1526149d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000354.npy",
+      "pose_sha256": "e01ac4d6676ac2fa42adc57c488f81b73557ea16f74d3ae264ff91cddefd6aeb",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        830,
+        305
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8671875,
+        0.91796875,
+        0.953125
+      ],
+      "cad_sha256": "091dde032c618e9b925c4951d6cbe3817030d182a03530efb6baa3b08ee3024f",
+      "sam_area": 18701,
+      "cad_area": 22488,
+      "sam_cad_intersection": 17421,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 356,
+      "pose_group": "356",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000356.jpg",
+      "image_sha256": "658c3b8bcaa19c5ec11e1182f28cd8eddd8e907b5f2c31a4b8fed7a1ec4e1d48",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000356.npy",
+      "pose_sha256": "fffe3a0734b5daa6b6d748b5510451fd19a9756b4d69fb7016e1fbd5266947fe",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        848,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.859375,
+        0.921875,
+        0.95703125
+      ],
+      "cad_sha256": "e92472ffc806e5404a7d1a826c6fe8095d0657b07bb45a4b7ebd0bc57488cbae",
+      "sam_area": 19181,
+      "cad_area": 22513,
+      "sam_cad_intersection": 17534,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 358,
+      "pose_group": "358",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/TRANSPORTING/000358.jpg",
+      "image_sha256": "6538a874ddeb5b8074d141bc37da62e1bc3390789c6b8f0095ab49f9a267e14a",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000358.npy",
+      "pose_sha256": "305fb9d0ca276fa5d616abde84e6edecef765c1b689b1f6d483ccc930ac42d07",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        816,
+        290
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.8828125,
+        0.8984375,
+        0.94921875
+      ],
+      "cad_sha256": "ddcb45c9122a59f1210a8a00f8e265a01b45b7dc430c9a20e092213613818a82",
+      "sam_area": 19501,
+      "cad_area": 21947,
+      "sam_cad_intersection": 17186,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 359,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000359.jpg",
+      "image_sha256": "1343beef3529e25de2a86382022fc7cafe98034282b90de7966acbc363ade588",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000359.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 15851,
+      "cad_area": 18531,
+      "sam_cad_intersection": 14375,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 361,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000361.jpg",
+      "image_sha256": "8e379c885a98742b85768b7175790f763ee1e43e18e38e5de366f8ae5844117d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000361.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.85546875,
+        0.91796875,
+        0.953125
+      ],
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 15875,
+      "cad_area": 18531,
+      "sam_cad_intersection": 14298,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 363,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000363.jpg",
+      "image_sha256": "d612770d6b265fcc64d70d7448e8514825288b5fe74fc0d26c273726750ede7e",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000363.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.86328125,
+        0.91015625,
+        0.94921875
+      ],
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 15923,
+      "cad_area": 18531,
+      "sam_cad_intersection": 14328,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 365,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000365.jpg",
+      "image_sha256": "8b11592439e037de364b717c14957dd405e142f5037b5f152c6bb49b11ef0491",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000365.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.86328125,
+        0.9140625,
+        0.94921875
+      ],
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 15958,
+      "cad_area": 18531,
+      "sam_cad_intersection": 14354,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 367,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000367.jpg",
+      "image_sha256": "780580622d94a6b10e8e81cac230c240f9d0f31852f0e57eaae3b335fcbdcb2e",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000367.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.85546875,
+        0.9140625,
+        0.953125
+      ],
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 15945,
+      "cad_area": 18531,
+      "sam_cad_intersection": 14348,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 369,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000369.jpg",
+      "image_sha256": "62fc94431d1bb485420980bb713fe130eb846761f34b0323aa427f566d6d6efd",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000369.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.87890625,
+        0.9140625,
+        0.953125
+      ],
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 15960,
+      "cad_area": 18531,
+      "sam_cad_intersection": 14356,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 371,
+      "pose_group": "359",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/PLACING/000371.jpg",
+      "image_sha256": "e0dd42f4b1b560a149eb927bd3eef1aef0af343dda4772adc597d03811d4d7c1",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000371.npy",
+      "pose_sha256": "2f758f440010ea9c9722d5a399556f1c610c2bef06a090c10bc153f89dd5da65",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.87890625,
+        0.921875,
+        0.95703125
+      ],
+      "cad_sha256": "26c7d285f960c28ff4b05b3f46a72e47796b81db444edef7fce1a4367d6c1172",
+      "sam_area": 17156,
+      "cad_area": 18531,
+      "sam_cad_intersection": 15539,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 373,
+      "pose_group": "373",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000373.jpg",
+      "image_sha256": "e092d20770813a1e7d1f25655910bdb0a4793ec8be566c0a6e07f777ca6cea30",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000373.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.83984375,
+        0.921875,
+        0.95703125
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 17518,
+      "cad_area": 18765,
+      "sam_cad_intersection": 15955,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 376,
+      "pose_group": "373",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000376.jpg",
+      "image_sha256": "d6d0cc2a20d2e262513108f72accc8d2e29a99330b15560a7c2f55ef1f6c34ed",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000376.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.94921875,
+        0.94140625,
+        0.96484375
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 18816,
+      "cad_area": 18765,
+      "sam_cad_intersection": 17332,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 379,
+      "pose_group": "373",
+      "occlusion": "PARTIAL",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000379.jpg",
+      "image_sha256": "f5d6566f6414526bda08a78de0dd49f386c8c79919ef0df1bf1e569b5fd969fa",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000379.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.953125,
+        0.97265625
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19741,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18119,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 383,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000383.jpg",
+      "image_sha256": "aaf8af3c0198cd38ec3976d69978a1dc2556bad8539edb7a124e48aab22e7691",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000383.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19775,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18305,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 388,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000388.jpg",
+      "image_sha256": "1f8550b6307512780f5c7292d653115919e8c1c98556f741785df8f8448630b5",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000388.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9375,
+        0.96875
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19747,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18266,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 393,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000393.jpg",
+      "image_sha256": "88f06066ef2412af51882ffa793e14cadeb77f4b44a4c9b3e589a53824899ed2",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000393.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.92578125,
+        0.96875
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19754,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18267,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 398,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000398.jpg",
+      "image_sha256": "ef3c4be023f742ff6c51ff1d3e50a33e31b54c9759c6fc8a89cc9108ddc6cade",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000398.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.91796875,
+        0.96875
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19664,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18244,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 402,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000402.jpg",
+      "image_sha256": "1d0a817ceac787c1f58ef4aadc9c8fb3023cc1e097c5726ec29ec9044f735a0e",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000402.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9140625,
+        0.96875
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19630,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18235,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 410,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000410.jpg",
+      "image_sha256": "88513f2dd1ab40d7cbf3418899b3342fc80ed5a981db4e6cbb9c0083291cc760",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000410.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.9140625,
+        0.96484375
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19650,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18236,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 419,
+      "pose_group": "373",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/RETURNING/000419.jpg",
+      "image_sha256": "6ab9838b2f1ca4788323a6beb3a0b00392e96e47da93deb3cb5d703e718c05d7",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000419.npy",
+      "pose_sha256": "baa2b6c379a85923c7ce9396f6742be54ca615d3ebc7debf48a88b7c53455b9d",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        815,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.9140625,
+        0.96875
+      ],
+      "cad_sha256": "218a5500039cfbca43f544eefc1c79f03e172d844bd90be218d1923e4550159e",
+      "sam_area": 19677,
+      "cad_area": 18765,
+      "sam_cad_intersection": 18248,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 420,
+      "pose_group": "420",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000420.jpg",
+      "image_sha256": "6932ab0893c494d8091fe0ab353a806b01af7d650f2afe94ac29650d82db604d",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000420.npy",
+      "pose_sha256": "72450e07010054bf7d9f72dc7a58e452ea6cb908022a5f80ec78444e2be421ed",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "Phase16A1_existing",
+      "sam_point_xy": null,
+      "sam_predicted_scores_not_accuracy": null,
+      "cad_sha256": "5ecc3dbb3070176fad1af587757b2e6e791bfd16b0d5fd9d14e2803c660d4f90",
+      "sam_area": 20077,
+      "cad_area": 18056,
+      "sam_cad_intersection": 17741,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 422,
+      "pose_group": "420",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000422.jpg",
+      "image_sha256": "6e8ec723a68fe878eb3a84b6f0062aaeae4f93aea6652a8e0979814aec8da368",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000422.npy",
+      "pose_sha256": "72450e07010054bf7d9f72dc7a58e452ea6cb908022a5f80ec78444e2be421ed",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        816,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.90234375,
+        0.96484375
+      ],
+      "cad_sha256": "5ecc3dbb3070176fad1af587757b2e6e791bfd16b0d5fd9d14e2803c660d4f90",
+      "sam_area": 19628,
+      "cad_area": 18056,
+      "sam_cad_intersection": 17598,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 424,
+      "pose_group": "420",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000424.jpg",
+      "image_sha256": "3c094775beb1aa3bd8c66bf8b4ff5c5c1acb146793e631136480de483478d051",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000424.npy",
+      "pose_sha256": "72450e07010054bf7d9f72dc7a58e452ea6cb908022a5f80ec78444e2be421ed",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        816,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.96484375,
+        0.90625,
+        0.96484375
+      ],
+      "cad_sha256": "5ecc3dbb3070176fad1af587757b2e6e791bfd16b0d5fd9d14e2803c660d4f90",
+      "sam_area": 20077,
+      "cad_area": 18056,
+      "sam_cad_intersection": 17736,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 427,
+      "pose_group": "420",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000427.jpg",
+      "image_sha256": "58f8e95cf7777a351fd0ac0c3b2dccb9e90a919706afa2d99214fe0be7359e35",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000427.npy",
+      "pose_sha256": "72450e07010054bf7d9f72dc7a58e452ea6cb908022a5f80ec78444e2be421ed",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        816,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.90234375,
+        0.96484375
+      ],
+      "cad_sha256": "5ecc3dbb3070176fad1af587757b2e6e791bfd16b0d5fd9d14e2803c660d4f90",
+      "sam_area": 19636,
+      "cad_area": 18056,
+      "sam_cad_intersection": 17598,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    },
+    {
+      "frame": 428,
+      "pose_group": "420",
+      "occlusion": "NONE",
+      "image_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/READY/000428.jpg",
+      "image_sha256": "0012cbf4080a4b1da02344a4762cc5d8fdbdbd53fe8e39f6f9ac1d616472de63",
+      "pose_path": "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000428.npy",
+      "pose_sha256": "72450e07010054bf7d9f72dc7a58e452ea6cb908022a5f80ec78444e2be421ed",
+      "K": "[[984.70009004,0.0,635.41416344],[0.0,983.75715611,362.61850196],[0.0,0.0,1.0]]",
+      "sam_source": "SAM2_new",
+      "sam_point_xy": [
+        816,
+        304
+      ],
+      "sam_predicted_scores_not_accuracy": [
+        0.9609375,
+        0.90234375,
+        0.96484375
+      ],
+      "cad_sha256": "5ecc3dbb3070176fad1af587757b2e6e791bfd16b0d5fd9d14e2803c660d4f90",
+      "sam_area": 19634,
+      "cad_area": 18056,
+      "sam_cad_intersection": 17600,
+      "status": "AUTO_CANDIDATE_NOT_GT"
+    }
+  ],
+  "n": 100,
+  "reused": 10,
+  "new_inference": 90,
+  "checkpoint_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "peak_allocated": 583890944,
+  "peak_reserved": 679477248,
+  "seconds": 6.1,
+  "warning": "candidate only, prompts not guaranteed foreground"
+}

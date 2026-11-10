@@ -1,0 +1,11 @@
+﻿component,bbox_xywh,cad_hole_pixels,eroded_core_pixels,surrounding_median_gray,core_fraction_40_brighter,qualifies_heuristic,independent_ray_hits_excluded,used_pixels,marked_uncertain_pixels,reason
+1,"[498, 345, 7, 6]",34,12,55.0,0.5,False,0,0,34,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+2,"[470, 336, 7, 6]",34,12,161.0,0.0,False,0,0,34,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+3,"[420, 318, 7, 6]",32,10,52.0,0.7,False,0,0,32,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+4,"[449, 316, 7, 6]",33,11,55.0,1.0,True,0,11,22,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+5,"[397, 305, 7, 6]",32,10,51.0,0.0,False,0,0,32,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+6,"[412, 271, 17, 15]",197,137,53.5,0.9051094890510949,True,0,124,73,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+7,"[501, 269, 7, 5]",29,9,164.0,0.0,False,0,0,29,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+8,"[472, 269, 7, 5]",28,8,47.0,1.0,True,0,8,20,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+9,"[453, 250, 7, 5]",27,8,47.0,0.125,False,0,0,27,RGB brightness heuristic only; CAD alignment and visible surface not independently verified
+10,"[425, 244, 7, 5]",27,7,46.0,0.0,False,0,0,27,RGB brightness heuristic only; CAD alignment and visible surface not independently verified

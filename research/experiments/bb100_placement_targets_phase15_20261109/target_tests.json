@@ -1,0 +1,44 @@
+{
+  "bb_diagnostic_loader": [
+    {
+      "frame": 43,
+      "cad_pixels": 15688,
+      "supervision_gate_pixels": 0,
+      "rgb_crop": [
+        3,
+        256,
+        256
+      ],
+      "front_back_code": [
+        24,
+        128,
+        128
+      ],
+      "training_guard": "PASS"
+    },
+    {
+      "frame": 235,
+      "cad_pixels": 17801,
+      "supervision_gate_pixels": 0,
+      "rgb_crop": [
+        3,
+        256,
+        256
+      ],
+      "front_back_code": [
+        24,
+        128,
+        128
+      ],
+      "training_guard": "PASS"
+    }
+  ],
+  "pbr_front_back_pixel_equality_uncanonicalized": [
+    0,
+    10
+  ],
+  "all_100_mask_xyz_format_range_and_zero_background": "PASS",
+  "empty_gate_training_block": "PASS",
+  "official_symmetry_target_compatibility": "NOT VERIFIED",
+  "training_pipeline": "NOT IMPLEMENTED"
+}

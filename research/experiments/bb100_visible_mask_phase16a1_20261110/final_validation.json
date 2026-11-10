@@ -1,0 +1,8 @@
+{
+  "source_hashes_307_phase12": 307,
+  "source_changed": [],
+  "original_checkpoint_sha256": "224c0869e20be8c9825b77925837e98f0e4c31ae1006361cddd1b46e0cb48ffc",
+  "sam_holes_check": "PASS structural measurement only",
+  "headless_firefox_cards_import_export_reload": "PASS",
+  "actual_windows_chrome": "NOT TESTED"
+}

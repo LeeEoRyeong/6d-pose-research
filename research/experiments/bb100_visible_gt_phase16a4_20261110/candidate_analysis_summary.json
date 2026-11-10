@@ -1,0 +1,10 @@
+{
+  "frames": 100,
+  "D_identical_to_B_frames": 95,
+  "D_diff_nonzero_frames": 5,
+  "B_C_diff_nonzero_frames": 100,
+  "B_D_diff_median": 0.0,
+  "B_D_diff_max": 12315,
+  "B_C_diff_median": 1577.5,
+  "note": "hole counts and differences relative to CAD are NOT ground truth; per-frame accepted reference evaluation separate"
+}

@@ -1,0 +1,22 @@
+status: BLOCKED
+train_executable: null
+seed: 42
+backbone: efficientnet_b4
+checkpoint: /home/oylee/projects/HCCEPose_experiments/itodd_official_audit_20261108/itodd_obj04_1_0000step50000.pt
+input_channels: 3
+image_crop_size: 256
+target_crop_size: 128
+bbox_padding: 1.5
+pnp_reprojection_px: 1.5
+pnp_iterations: 150
+pnp_seed_policy: 42_plus_frame
+validation_manifest: UNASSIGNED
+selection_metric: explicit_symmetry_ADD_0.1d_on_frozen_real_validation
+selection_rule: max_validation_metric_ties_first_checkpoint
+training_steps: UNDECIDED
+optimizer: UNDECIDED
+learning_rate: UNDECIDED
+experiment: E2
+real_source: bb_train_only
+pbr_source: pbr_train80
+notes: "group-balanced real / PBR sampling to be specified before training"

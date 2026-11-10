@@ -1,0 +1,6 @@
+frame_a,frame_b,pose_exact_group,state_a,state_b,time_a,time_b,capture_delta_seconds,whole_image_mae,projected_neighborhood_mae,note
+31,75,31,FEEDING,PICKING,2026-08-13T16:44:28.124,2026-08-13T16:44:32.532,4.407456100001582,21.562987196180554,22.59895905666991,difference includes gripper/background/lighting; same pose does not prove annotation correctness
+32,42,32,READY,READY,2026-08-13T16:44:28.192,2026-08-13T16:44:29.258,1.0658339000074193,2.6120203993055555,2.137970465881982,difference includes gripper/background/lighting; same pose does not prove annotation correctness
+43,60,43,APPROACHING,APPROACHING,2026-08-13T16:44:29.323,2026-08-13T16:44:31.010,1.686651800002437,8.900570384837962,5.554319801502961,difference includes gripper/background/lighting; same pose does not prove annotation correctness
+235,247,235,RETURNING,RETURNING,2026-08-13T16:44:48.657,2026-08-13T16:44:49.804,1.147135300008813,28.836770833333333,22.635603797867947,difference includes gripper/background/lighting; same pose does not prove annotation correctness
+420,428,420,READY,READY,2026-08-13T16:45:07.128,2026-08-13T16:45:07.916,0.7879423999984283,0.649400318287037,0.3999225473896467,difference includes gripper/background/lighting; same pose does not prove annotation correctness

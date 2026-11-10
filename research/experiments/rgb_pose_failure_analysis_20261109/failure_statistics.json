@@ -1,0 +1,116 @@
+{
+  "categories": {
+    "both_success": 16,
+    "both_fail": 5,
+    "oracle_only": 5,
+    "yolo_only": 1
+  },
+  "bb100_failed": 45,
+  "bb_failure_pnp_valid": 45,
+  "bb_failure_by_time_group": {
+    "31": 33,
+    "221": 12
+  },
+  "bb_all_by_time_group": {
+    "31": 36,
+    "221": 64
+  },
+  "bb_failure_by_state": {
+    "FEEDING": 1,
+    "READY": 11,
+    "APPROACHING": 11,
+    "PICKING": 9,
+    "TRANSPORTING": 9,
+    "PLACING": 3,
+    "RETURNING": 1
+  },
+  "bb_all_by_state": {
+    "FEEDING": 1,
+    "READY": 11,
+    "APPROACHING": 11,
+    "PICKING": 14,
+    "TRANSPORTING": 22,
+    "PLACING": 14,
+    "RETURNING": 27
+  },
+  "bb_failure_symmetry_index": {
+    "1": 45
+  },
+  "bb_pose_groups": 36,
+  "bb_failure_pose_groups": 19,
+  "bb_same_pose_mixed_success_groups": 3,
+  "bb_rotation_failed_median_deg": 1.9103813749462424,
+  "bb_translation_failed_median_mm": 25.605724153853743,
+  "roi_summaries": [
+    {
+      "bbox_scale": 1.0,
+      "n": 27,
+      "pnp": 26,
+      "ADD": 0,
+      "ADD_S": 23,
+      "symmetry_ADD": 17,
+      "xyz_stability_frame_median_mm": null
+    },
+    {
+      "bbox_scale": 1.05,
+      "n": 27,
+      "pnp": 25,
+      "ADD": 0,
+      "ADD_S": 22,
+      "symmetry_ADD": 17,
+      "xyz_stability_frame_median_mm": 1.0285234451293945
+    },
+    {
+      "bbox_scale": 1.1,
+      "n": 27,
+      "pnp": 25,
+      "ADD": 0,
+      "ADD_S": 22,
+      "symmetry_ADD": 17,
+      "xyz_stability_frame_median_mm": 1.060546875
+    },
+    {
+      "bbox_scale": 1.15,
+      "n": 27,
+      "pnp": 25,
+      "ADD": 0,
+      "ADD_S": 22,
+      "symmetry_ADD": 18,
+      "xyz_stability_frame_median_mm": 1.060546875
+    },
+    {
+      "bbox_scale": 1.2,
+      "n": 27,
+      "pnp": 26,
+      "ADD": 0,
+      "ADD_S": 21,
+      "symmetry_ADD": 19,
+      "xyz_stability_frame_median_mm": 1.090804934501648
+    }
+  ],
+  "hashes_unchanged": true,
+  "input_sha256": {
+    "/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/pose_eval.csv": "2efa9eb8e51b7f7999213c3a3243c5f71368f91ef9362ed2cbf6dbb383f0101d",
+    "/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/detector_eval.csv": "9c9a3ff0ce3a0d81664b2653dbb1500a0e316af5fea21250adace477879036df",
+    "/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/failure_analysis.csv": "d8de955efb7f504cded05bceec5caeca8ebe796109a81f800742b8f09a1926c5",
+    "/home/oylee/projects/HCCEPose_experiments/official_rgb_pose_advanced_20261108/per_frame.csv": "b2d52b091eee91b9e2e1583a67c3e54661707796c90aeba41d74382254d104ce",
+    "/home/oylee/projects/HCCEPose_experiments/official_rgb_pose_advanced_20261108/bb100_pose_diagnostic.csv": "1bed39d0f0a486785811e42930557c52b2c771edba1b9a075e80dd81acbd96bf",
+    "/home/oylee/projects/HCCEPose_experiments/official_rgb_pose_advanced_20261108/bb100_audit.csv": "334478f8baccc935d75ab5b0047ba3d4309eef5c245901cd336455dd76139824",
+    "/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/runs/yolo11n_pbr_attempt3/weights/best.pt": "949af2e2aa7532d5945bb197b05ef9bc1c943a8ff55b23732043fc88899320c8",
+    "/home/oylee/projects/HCCEPose_experiments/itodd_official_audit_20261108/itodd_obj04_1_0000step50000.pt": "224c0869e20be8c9825b77925837e98f0e4c31ae1006361cddd1b46e0cb48ffc"
+  },
+  "input_hash_coverage": "key inputs, not all original files",
+  "bbox_iou_vs_symmetry_ADD_pearson": -0.6439088380635352,
+  "correlation_n": 26,
+  "bbox_iou_vs_symmetry_ADD_spearman": -0.6280341880341881,
+  "roi_scale_1_2_gained_frames": [
+    "94",
+    "96",
+    "98"
+  ],
+  "roi_scale_1_2_lost_frames": [
+    "92"
+  ],
+  "visual_tool_in_failure_crop": 28,
+  "visual_tool_observation_limit": "qualitative crop review, tool presence is not confirmed occlusion, original GT overlay can obscure image"
+}

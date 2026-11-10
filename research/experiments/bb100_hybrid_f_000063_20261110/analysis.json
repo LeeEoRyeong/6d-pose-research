@@ -1,0 +1,24 @@
+{
+  "frame": "000063",
+  "cad_holes_count": 10,
+  "closed_hole_geometry_pixels": 473,
+  "selected_geometry_hole_pixels": 143,
+  "uncertain_hole_pixels": 330,
+  "F_removed_pixels": 143,
+  "F_removed_conflicting_accepted_foreground_pixels": 143,
+  "prior_accepted_status": "ACCEPTED",
+  "prior_accepted_revision": "20261110T140818.427099Z_edca489a",
+  "removed_nongap_actual_gt": "UNKNOWN: no independent pixel reference; existing accepted mask disagrees, not automatically adjudicated",
+  "closed_hole_pixel_ray_excluded_count": 0,
+  "input_hashes_unchanged": true,
+  "inputs": {
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/rgb_undistorted/APPROACHING/000063.jpg": "70530f2951fa6a298be6133adf192cd3eeb93e49a05bdb93f1df947d0dc54656",
+    "/home/oylee/projects/HCCEPose_experiments/real_bb100_20261108/BB_obj04/poses_obj04/pose_000063.npy": "000380707e0fa58621e16fdbf727b0e07027c9c64dab70d9aaec4d3a362ceed5",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/annotations/000063/versions/20261110T140818.427099Z_edca489a/working_mask.png": "d4ae94d09acbf6d6cc7d5d703322d1213e4c6af38bb653b6d79f9da61a4ee51b",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/candidates/A/000063.png": "59930a9aa962a596fc1891f78ff6183a030034bacb36d1ac70834b79d9c8f919",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/candidates/B/000063.png": "d4ae94d09acbf6d6cc7d5d703322d1213e4c6af38bb653b6d79f9da61a4ee51b",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/candidates/C/000063.png": "bc0c51c88edc503b1e8d77e3b5cb12a51391819ec467669525707272bfefa052",
+    "/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/candidates/D/000063.png": "d4ae94d09acbf6d6cc7d5d703322d1213e4c6af38bb653b6d79f9da61a4ee51b"
+  },
+  "selection": "3x3 erosion of enclosed CAD background; ring median<100, >=80% core pixels >= ring median+40; retain only bright core pixels with no CAD ray hit; other hole pixels uncertain. Heuristic is not calibrated."
+}

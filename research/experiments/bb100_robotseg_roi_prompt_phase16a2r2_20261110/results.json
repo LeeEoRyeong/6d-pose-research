@@ -1,0 +1,212 @@
+{
+  "frames": [
+    {
+      "frame": 75,
+      "condition": "A_full_auto",
+      "roi_xyxy": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "point_positive_xy": null,
+      "point_negative_xy": null,
+      "mask_pixels": 4440,
+      "SAM_overlap_removed_pixels": 0,
+      "CADSAM_overlap_removed_pixels": 0,
+      "mask_diff_vs_prior_full_pixels": 0,
+      "baseline_matches_previous": true,
+      "logit_min": -43.124977111816406,
+      "logit_max": 10.80764389038086,
+      "seconds": 0.388,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "FULL_FRAME"
+    },
+    {
+      "frame": 75,
+      "condition": "B_crop_auto",
+      "roi_xyxy": [
+        220,
+        0,
+        700,
+        430
+      ],
+      "point_positive_xy": null,
+      "point_negative_xy": null,
+      "mask_pixels": 9159,
+      "SAM_overlap_removed_pixels": 494,
+      "CADSAM_overlap_removed_pixels": 434,
+      "mask_diff_vs_prior_full_pixels": 13515,
+      "baseline_matches_previous": null,
+      "logit_min": -27.707975387573242,
+      "logit_max": 11.677515029907227,
+      "seconds": 0.04,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "CAD and prompt inside; physical gripper extent needs human confirmation"
+    },
+    {
+      "frame": 75,
+      "condition": "C_full_points",
+      "roi_xyxy": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "point_positive_xy": [
+        465,
+        295
+      ],
+      "point_negative_xy": [
+        505,
+        330
+      ],
+      "mask_pixels": 12774,
+      "SAM_overlap_removed_pixels": 198,
+      "CADSAM_overlap_removed_pixels": 164,
+      "mask_diff_vs_prior_full_pixels": 8828,
+      "baseline_matches_previous": null,
+      "logit_min": -25.27083396911621,
+      "logit_max": 7.337490081787109,
+      "seconds": 0.043,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "FULL_FRAME"
+    },
+    {
+      "frame": 75,
+      "condition": "D_crop_points",
+      "roi_xyxy": [
+        220,
+        0,
+        700,
+        430
+      ],
+      "point_positive_xy": [
+        465,
+        295
+      ],
+      "point_negative_xy": [
+        505,
+        330
+      ],
+      "mask_pixels": 8907,
+      "SAM_overlap_removed_pixels": 207,
+      "CADSAM_overlap_removed_pixels": 151,
+      "mask_diff_vs_prior_full_pixels": 13343,
+      "baseline_matches_previous": null,
+      "logit_min": -22.244617462158203,
+      "logit_max": 9.927872657775879,
+      "seconds": 0.04,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "CAD and prompt inside; physical gripper extent needs human confirmation"
+    },
+    {
+      "frame": 235,
+      "condition": "A_full_auto",
+      "roi_xyxy": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "point_positive_xy": null,
+      "point_negative_xy": null,
+      "mask_pixels": 309,
+      "SAM_overlap_removed_pixels": 0,
+      "CADSAM_overlap_removed_pixels": 0,
+      "mask_diff_vs_prior_full_pixels": 0,
+      "baseline_matches_previous": true,
+      "logit_min": -71.77490234375,
+      "logit_max": 32.17361068725586,
+      "seconds": 0.042,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "FULL_FRAME"
+    },
+    {
+      "frame": 235,
+      "condition": "B_crop_auto",
+      "roi_xyxy": [
+        390,
+        0,
+        890,
+        540
+      ],
+      "point_positive_xy": null,
+      "point_negative_xy": null,
+      "mask_pixels": 292,
+      "SAM_overlap_removed_pixels": 0,
+      "CADSAM_overlap_removed_pixels": 0,
+      "mask_diff_vs_prior_full_pixels": 21,
+      "baseline_matches_previous": null,
+      "logit_min": -53.13689422607422,
+      "logit_max": 22.260150909423828,
+      "seconds": 0.036,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "CAD and prompt inside; physical gripper extent needs human confirmation"
+    },
+    {
+      "frame": 235,
+      "condition": "C_full_points",
+      "roi_xyxy": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "point_positive_xy": [
+        640,
+        385
+      ],
+      "point_negative_xy": [
+        690,
+        425
+      ],
+      "mask_pixels": 286,
+      "SAM_overlap_removed_pixels": 0,
+      "CADSAM_overlap_removed_pixels": 0,
+      "mask_diff_vs_prior_full_pixels": 23,
+      "baseline_matches_previous": null,
+      "logit_min": -71.18331909179688,
+      "logit_max": 28.109722137451172,
+      "seconds": 0.043,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "FULL_FRAME"
+    },
+    {
+      "frame": 235,
+      "condition": "D_crop_points",
+      "roi_xyxy": [
+        390,
+        0,
+        890,
+        540
+      ],
+      "point_positive_xy": [
+        640,
+        385
+      ],
+      "point_negative_xy": [
+        690,
+        425
+      ],
+      "mask_pixels": 15152,
+      "SAM_overlap_removed_pixels": 670,
+      "CADSAM_overlap_removed_pixels": 655,
+      "mask_diff_vs_prior_full_pixels": 14925,
+      "baseline_matches_previous": null,
+      "logit_min": -18.12672233581543,
+      "logit_max": 6.022212028503418,
+      "seconds": 0.036,
+      "status": "PSEUDO_NOT_GT",
+      "roi_validity": "CAD and prompt inside; physical gripper extent needs human confirmation"
+    }
+  ],
+  "source_sha_unchanged": true,
+  "peak_allocated_bytes": 612336128,
+  "peak_reserved_bytes": 710934528,
+  "input_crop_encoding": "JPEG quality 100 in separate directory",
+  "model": "official source, apply_postprocessing=False, raw logit >0",
+  "coords": "original full-frame pixels; crop offset subtracted for prompt and added for masks",
+  "positive_negative": "manually chosen from inspected frames; not GT",
+  "gpu": "RTX 5090"
+}

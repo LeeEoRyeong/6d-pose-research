@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "trials": 300,
+  "baseline_old_pnp": "PASS success, R/t and final inliers",
+  "cache_hashes_match_phase8": true,
+  "source_hashes_unchanged": true,
+  "sampling": "dedup first original index; grid closest cell centre tie original index; random independent deterministic numpy subsets, retain original order",
+  "pnp": "OpenCV EPNP 1.5 px 150 iterations; setRNGSeed(42+frame); no claim OpenCV uses caller RNG",
+  "ordering": "3 deterministic per-method shuffles; seed depends on frame, ROI, method, trial",
+  "repeats": "5 random matched subsets per target per case, not independent images",
+  "no_GT": true
+}

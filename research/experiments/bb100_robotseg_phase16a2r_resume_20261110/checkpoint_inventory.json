@@ -1,0 +1,23 @@
+{
+  "path": "/home/oylee/projects/HCCEPose/robotseg.pt",
+  "bytes": 165436221,
+  "sha256": "1384c38c4f313487a32503025d4566ac1d815f6be983199362fc4af19aaa06a2",
+  "weights_only": true,
+  "top_level_type": "dict",
+  "top_level_keys": [
+    "model"
+  ],
+  "model_key_present": true,
+  "tensor_count": 585,
+  "non_tensor_keys": [],
+  "first_keys": [
+    "maskmem_tpos_enc",
+    "no_mem_embed",
+    "no_mem_pos_enc",
+    "no_obj_ptr",
+    "no_obj_embed_spatial",
+    "image_encoder.trunk.pos_embed",
+    "image_encoder.trunk.pos_embed_window",
+    "image_encoder.trunk.patch_embed.proj.weight"
+  ]
+}

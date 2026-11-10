@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "frame_pair": [
+    235,
+    237
+  ],
+  "input_bgr": true,
+  "flow_shape": [
+    720,
+    1280,
+    2
+  ],
+  "magnitude_median_px": 0.6201223134994507,
+  "seconds": 0.6541937100046198,
+  "allocated_bytes": 1013440000,
+  "reserved_bytes": 1293942784,
+  "weights_sha256": "801de3f3f7df8dc0c5935e91f84852ebd3481ab60d89f175027a5321eebd95dc",
+  "smoke_only": true,
+  "cpu_renderer": "not used",
+  "note": "source estimate example-size assertions bypassed in external wrapper, rest of resize protocol reproduced"
+}

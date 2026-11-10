@@ -1,0 +1,68 @@
+from pathlib import Path
+import csv,json,hashlib,re,statistics
+O=Path('/home/oylee/projects/HCCEPose_experiments/bb100_gt_integrity_phase16a5_20261111');s=json.loads((O/'summary.json').read_text());su=json.loads((O/'supplement.json').read_text());before=json.loads((O/'source_hashes_before.json').read_text());changed=[]
+for p,h in before.items():
+ try:
+  with open(p,'rb') as f:current=hashlib.sha256(f.read()).hexdigest()
+ except OSError:current=None
+ if current!=h:changed.append(p)
+with open(O/'frame_integrity.csv',encoding='utf-8-sig') as f:r=list(csv.DictReader(f))
+refs=re.findall(r'(?:src|href)="([^"]+\.(?:jpg|png))"',(O/'index.html').read_text());missing=[v for v in refs if not (O/v).is_file()]
+check={'gallery_references':len(refs),'missing_gallery_files':missing,'visualizations':len(list((O/'visualizations').glob('*.jpg'))),'hole_closeups':su['hole_closeups'],'contact_sheets':len(list((O/'contact_sheets').glob('*.jpg'))),'source_changed_final':changed};(O/'output_validation.json').write_text(json.dumps(check,ensure_ascii=False,indent=2))
+false={k:v for k,v in s['checks_failed'].items() if v};blocked=bool(false or s['errors'] or changed or s['new_version_files'] or su['cad_mismatch'] or missing or len(r)!=100); verdict='BLOCKED' if blocked else 'CONDITIONAL'
+ig=[int(a['ignore_px']) for a in r];rat=[float(a['outside_cad_fg_ratio'])*100 for a in r];hist=statistics.median(rat)
+text=f'''# Phase 16A-5 — BB100 Visible Mask GT 무결성 검증
+
+## 최종 판정: {verdict}
+
+저장된 승인본 100장과 이미지·Pose·K·CAD 연결 및 저장 이력의 기계적 검사는 통과했다. 다만 실행 중인 편집기의 **브라우저 메모리에 남은 미저장 편집 여부는 저장 파일로 확인할 수 없어** 해당 필수 항목은 미확인이다. 브라우저에서 저장 상태를 확인해야 PASS를 판단할 수 있다. 이 판정은 픽셀 정확도 인증도, 전체 학습 준비 완료 판정도 아니다. 재학습은 실행하지 않았다.
+
+## 대상과 출처
+
+- 승인 이력: `/home/oylee/projects/HCCEPose_experiments/bb100_visible_gt_phase16a4_20261110/annotations/` 및 `frame_status.csv`.
+- RGB·Pose 목록: `/home/oylee/projects/HCCEPose_experiments/bb100_finetuning_preparation_20261109/bb100_candidate_manifest.csv`의 100개 경로. Pose는 `real_bb100_20261108/BB_obj04/poses_obj04/pose_*.npy`, BOP 표현은 동일 폴더의 `scene_gt_obj04.json`.
+- K: `scene_camera_obj04.json`, manifest 및 K=(984.70009004, 983.75715611, 635.41416344, 362.61850196)을 대조. RGB는 1280×720 보정 영상. Phase 11의 1회 `cv2.undistort(img,K,D,None,K)` 재현과 사용자 카메라 동일성 진술을 따르며 실제 촬영 설정의 독립 인증은 아니다.
+- CAD: `/home/oylee/projects/HCCEPose_experiments/itodd_official_audit_20261108/official_obj_000004.ply`; SHA-256 `0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f`. 비교용 Phase 16A-4 A 후보는 이전 Phase 15 Pose별 amodal 렌더와 {su['cad_phase15_pixel_identical']}/100 픽셀 일치. 재렌더하지 않았다.
+
+## 승인·저장 이력
+
+- 상태표와 최신 버전 메타데이터가 ACCEPTED, 명시적 승인 및 저장을 나타내는 프레임: **100/100**. 비승인 목록 없음. 최종 PNG와 저장 경로·버전 ID·프레임 ID·SHA-256이 일치한다.
+- 전체 **{s['history_count']}개** 저장 버전에서 메타데이터와 마스크 존재, 마스크 해시, parent revision 연결을 확인했다. 구버전도 보존되어 있다. 이력 존재는 디스크에 보존된 파일에 대한 판단이며 저장되지 않은 작업 이력은 포함하지 않는다.
+- 시작과 종료 해시 비교에서 추적된 원본 변경 {len(changed)}건, 검사 중 새 저장 버전 {len(s['new_version_files'])}건. 이는 검사 구간 관찰값이다.
+- 편집 중인 브라우저 탭에 저장하지 않은 변경이 없는지는 서버 파일만으로 판단할 수 없다. 사용자는 각 열린 편집 탭에서 변경 사항 저장 여부와 상태를 확인해야 한다.
+
+## 마스크·RGB·Pose·K 무결성
+
+- 100/100은 1280×720 단일 채널 uint8 PNG이며 허용 값 0/128/255, 비어 있지 않은 전경, 정상 재로드, PNG 해시·메타데이터 픽셀 수 일치를 확인했다.
+- 전경 면적 최소/중앙값/최대: **{s['area_min_median_max'][0]:,} / {s['area_min_median_max'][1]:,.1f} / {s['area_min_median_max'][2]:,} px**. IQR 1.5배 통계 기준 이상치는 0장이다. 이것이 실제 픽셀 정확성의 증거는 아니다.
+- Ignore 값 128은 **100/100장**, 전체 {s['total_ignore_px']:,} px, 장별 {min(ig)}–{max(ig)} px. 각 저장본의 별도 foreground·valid PNG가 각각 `mask==255`, `mask!=128`과 일치한다.
+- RGB·Pose 해시가 manifest와 일치하고 100개 Pose는 유한한 4×4 행렬, 회전 직교성 오차 <1e-5, det(R)과 1의 차이 <1e-5, 양의 카메라 깊이를 충족한다. Pose는 BOP scene GT와 오차 <1e-8로 일치하며 K도 100/100 일치한다. 이들은 수치 검증이지 GT의 물리적 정밀도 검증은 아니다.
+- 전경 bbox, 면적 비율, 연결 성분 수, 2D 내부 구멍 수·면적은 `frame_integrity.csv` 참조. 면적 10 px 이상의 연결 성분이 둘 이상인 경우 {s['flags'].get('연결성분_복수',0)}장이며 가림·형상 등으로 발생할 수 있다. 구멍은 2D 연결 성분의 통계이고 실제 관통 여부를 인증하지 않는다.
+
+## CAD 비교 및 재검수
+
+교집합, CAD 밖 전경, CAD 내부 배경, CAD 내부 ignore, 양쪽 구멍 관련 픽셀을 프레임별 CSV에 저장했다. CAD는 전체 투영이고 visible mask는 실제 보이는 영역이므로 불일치는 가림·외곽 정합·라벨 차이 등을 함께 반영한다. Ignore는 CAD 내부 미포함 배경 계산에서 제외했다.
+
+- CAD 밖 전경 비율 중앙값 {hist:.2f}%; 진단용 임계 5% 초과 {s['flags'].get('CAD밖_전경_5%초과',0)}장. 5%는 임의의 시각화 우선순위 기준으로 정확도 또는 오류 임계치가 아니다.
+- CAD 밖 전경 비율 상위: {', '.join(f'{x[0]} ({x[1]:.2f}%)' for x in su['top_outside_ratio'])}.
+- CAD 내부 구멍에 visible 전경이 들어간 픽셀 수 상위: {', '.join(f'{x[0]} ({x[1]} px)' for x in su['top_hole'])}. 구멍 정의는 이진 CAD 투영에서 외부와 연결되지 않은 2D 빈 영역이며, CAD/RGB 정합 오차와 실제 가림 때문에 오검출이 가능하다.
+- CAD 밖 비율, CAD 구멍 내 전경, CAD 내부 배경의 각 상위 10개 합집합 **{su['priority_frames']}장**을 `priority_review.csv`에 정리했다. 가림이 큰 프레임은 CAD 내부 배경이 많을 수 있으며 자동 오류 판정이나 재승인이 아니다.
+- `index.html`에서 100장 원본·visible overlay·CAD 윤곽과 개별 구멍 확대를 확인할 수 있다. `contact_sheets/`에는 4장의 요약 시트가 있다. 가려진 부분, CAD 투영 위치 및 실제 RGB 구멍을 함께 확인한다.
+
+## BOP 변환 및 HCCEPose 준비
+
+`bop_preparation_manifest.csv`에 RGB·Pose·K·CAD·승인 작업용 마스크·foreground·valid 경로를 연결했다. scene GT와 camera JSON은 확인되었지만 변환 결과를 공식 BOP 디렉터리에 작성하지 않았다. 변환 시 BOP 인스턴스 순서, 이미지 ID, `scene_gt_info.json`의 bbox/visibility 관련 필드와 선택한 평가기의 요구 파일을 확인해야 한다.
+
+128을 무시 영역으로 둔 `valid_255`는 별도 보존해야 하며, foreground PNG만 일반 BOP visible mask로 쓰면 128이 배경으로 간주된다. 표준 BOP 이진 마스크만으로 ignore를 표현할 수 없으므로 loader와 loss/평가에서 valid 영역을 실제로 적용하고 테스트해야 한다. 실제 독립 배치 기반 train/validation 확정, 대칭 규약과 XYZ/front-back 감독 및 ignore-aware 학습 경로 검증도 남아 있다. 따라서 **HCCEPose 실사 파인튜닝 전체 준비 상태는 BLOCKED**이며, 이 데이터 무결성 판정과 별개다.
+
+## 산출물과 재현
+
+- `frame_integrity.csv`: 100장별 검사·마스크·CAD 수치.
+- `version_history_audit.csv`: {s['history_count']}개 버전과 parent/hash 검사.
+- `priority_review.csv`, `bop_preparation_manifest.csv`, `summary.json`, `source_hashes_before.json`, `source_hashes_after.json`.
+- `index.html`, `visualizations/`, `hole_closeups/`, `contact_sheets/`, `output_validation.json`.
+- 읽기 전용 입력 분석 스크립트 `audit.py`, 확대·우선순위 생성 `supplement.py`, `audit.log`. 재실행 시 이 **새 결과 디렉터리의 산출물은 갱신**되므로 보존하려면 먼저 별도 사본을 만든다.
+
+검사 명령: `/home/oylee/projects/HCCEPose_experiments/yolo_hcce_rgb_pipeline/.venv/bin/python -B audit.py` (작업 디렉터리: 본 결과 디렉터리). 이후 같은 Python으로 `supplement.py`를 실행한다. 검증 중 원본이나 기존 결과, 승인 상태를 수정하지 않았다.
+'''
+(O/'연구_보고서.md').write_text(text,encoding='utf-8');print(json.dumps({'verdict':verdict,'output':check,'failures':false,'outside_median':hist},ensure_ascii=False))

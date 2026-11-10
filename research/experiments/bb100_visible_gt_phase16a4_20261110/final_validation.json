@@ -1,0 +1,10 @@
+{
+  "frames": 100,
+  "candidate_masks": 500,
+  "accepted_original_copies_checked": 10,
+  "accepted_untouched": "PASS",
+  "approved_mask_ignore_reloads": "PASS",
+  "draft_unsaved": 90,
+  "source_training": "NOT_RUN",
+  "windows_browser": "NOT_TESTED"
+}

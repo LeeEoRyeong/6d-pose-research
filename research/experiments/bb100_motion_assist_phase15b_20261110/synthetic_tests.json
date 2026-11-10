@@ -1,0 +1,6 @@
+{
+  "known_background_translation_with_outliers": "PASS",
+  "known_object_minus_background_translation": "PASS",
+  "insufficient_correspondences": "PASS",
+  "scope": "synthetic geometry only; does not verify foreground feature ownership"
+}

@@ -1,0 +1,11 @@
+method,cases,success_changed_any_of_3,valid_pose_comparison_cases,max_sym_rotation_median_deg,max_sym_rotation_p95_deg,max_sym_rotation_max_deg,max_sym_translation_median_cad,order_note
+A_all,104,7,82,2.102672273025801,69.24026700373717,113.28036240538877,5.244344946534735,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+B_dedup3,104,2,81,2.145086537426945,55.24949901851024,162.96993190425695,5.32090443663291,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+B_dedup5,104,4,81,2.2906678166272445,44.78503803249327,164.5524017818968,4.6591259846814435,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+B_dedup7,104,4,81,2.1054637755550485,59.727886459957745,175.0000687675359,5.196194976575304,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+C_grid16,104,1,72,2.6169208003868434,16.37104618577137,64.84983586867118,4.814727906501169,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+C_grid4,104,3,52,1.357488075206624,60.37314128018853,102.52007985673363,4.529359552592992,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+C_grid8,104,1,70,2.022148716757254,40.47217208577106,114.66327842390585,6.124133580699313,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+D_dedup5_grid16,104,1,77,2.0145912521762877,35.13188238510441,62.0259835688673,4.9304340353010865,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+D_dedup5_grid4,104,1,50,0.7645678306285739,23.508051796546017,54.23013866117474,1.980835973628011,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"
+D_dedup5_grid8,104,3,73,1.9549358377219714,48.359776443652834,83.30841123487382,5.172562822398132,"same points, original vs 3 deterministic order permutations; OpenCV RNG seed fixed"

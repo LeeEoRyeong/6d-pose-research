@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "group_count": 36,
+  "frame_count": 100,
+  "relative_image_references": 136,
+  "all_images_exist_and_decodable": true,
+  "frame_assets_match_phase12": true,
+  "zip_entries": 144,
+  "zip_crc": "PASS",
+  "zip_extract": "PASS",
+  "offline_external_network_references": "none",
+  "all_initial_unreviewed_and_hold": true,
+  "source_hashes_unchanged": true,
+  "javascript": "simulated DOM smoke separately; no installed Windows/Chrome browser",
+  "zip_path": "/home/oylee/projects/HCCEPose_experiments/bb100_group_review_20261109/BB100_pose_group_review_Windows_offline.zip",
+  "zip_bytes": 21207491,
+  "zip_sha256": "1dbe8d65b7663928db556379ef99e8cd4d25cf4e80ad5989924eb87d2bfcc4d8"
+}

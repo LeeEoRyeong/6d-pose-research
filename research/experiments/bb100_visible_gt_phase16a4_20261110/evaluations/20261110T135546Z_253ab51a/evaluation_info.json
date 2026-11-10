@@ -1,0 +1,34 @@
+{
+  "accepted_frames": [
+    "000043",
+    "000075",
+    "000099",
+    "000221",
+    "000235",
+    "000247",
+    "000340",
+    "000359",
+    "000383",
+    "000420"
+  ],
+  "accepted_count": 10,
+  "result_rows": 50,
+  "matched_frames": [
+    "000043",
+    "000075",
+    "000099",
+    "000221",
+    "000235",
+    "000247",
+    "000340",
+    "000359",
+    "000383",
+    "000420"
+  ],
+  "matched_comparison_rows": 40,
+  "ignore_policy": "ref==128 excluded",
+  "fpr": "FP/(FP+TN), over valid pixels",
+  "fnr": "FN/(FN+TP), over valid pixels",
+  "gripper_specific_metrics": "NOT_AVAILABLE_NO_GRIPPER_GT",
+  "note": "none values mean zero denominator; not zero accuracy"
+}

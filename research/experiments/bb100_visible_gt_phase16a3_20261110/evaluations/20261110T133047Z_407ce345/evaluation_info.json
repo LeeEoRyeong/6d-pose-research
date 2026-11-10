@@ -1,0 +1,12 @@
+{
+  "accepted_frames": [],
+  "accepted_count": 0,
+  "result_rows": 0,
+  "matched_frames": [],
+  "matched_comparison_rows": 0,
+  "ignore_policy": "ref==128 excluded",
+  "fpr": "FP/(FP+TN), over valid pixels",
+  "fnr": "FN/(FN+TP), over valid pixels",
+  "gripper_specific_metrics": "NOT_AVAILABLE_NO_GRIPPER_GT",
+  "note": "none values mean zero denominator; not zero accuracy"
+}

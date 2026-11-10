@@ -1,0 +1,10 @@
+{
+  "conditions": 8,
+  "baseline_pixel_reproduction": "PASS both",
+  "candidate_formula": "PASS",
+  "crop_output_outside_roi_zero": "PASS",
+  "manual_points_checked": "PASS",
+  "full_235_positive_point_in_mask": false,
+  "zip_links_crc": "PASS",
+  "windows_chrome": "NOT_TESTED"
+}
